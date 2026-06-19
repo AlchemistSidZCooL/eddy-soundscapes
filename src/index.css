@@ -296,8 +296,12 @@ footer {
     .cta-buttons {
         flex-direction: column;
     }
-    .btn {
+    .cta-buttons .btn, .streaming-links .btn {
         text-align: center;
         width: 100%;
+    }
+    .navbar .btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
     }
 }
