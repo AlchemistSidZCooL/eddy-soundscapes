@@ -26,6 +26,7 @@ La web sigue una filosofía de diseño minimalista de alto contraste (Dark Mode)
 4.  Generar build de producción: `npm run build`
 
 ## 🔗 Enlaces Importantes
+*   **Sitio de Producción:** [eddycamusic.netlify.app](https://eddycamusic.netlify.app)
 *   **Instagram:** [@eddycamusic](https://www.instagram.com/eddycamusic/)
 *   **Facebook:** [Eddy Castaño Music](https://www.facebook.com/eddycamusic/)
 *   **YouTube:** [Canal Oficial](https://www.youtube.com/@EDDYMUSICA)
@@ -33,5 +34,12 @@ La web sigue una filosofía de diseño minimalista de alto contraste (Dark Mode)
 *   **SoundCloud:** [Eddy Castaño](https://soundcloud.com/eddycastano)
 *   **Email Comercial:** eddycamusic1@gmail.com
 
+## 🔮 Fase 2 (Próximas Mejoras / Backlog)
+A la espera de retroalimentación por parte del artista, las siguientes integraciones están planificadas para aumentar la conversión B2B y el alcance:
+1.  **Monetización Directa (La Gorra Digital):** Reemplazar el `alert()` actual con enlaces reales a PayPal.me / Bizum / Stripe para donaciones.
+2.  **Dossier / Tech Rider:** Implementar un botón de descarga para un PDF con el *stage plot*, *input list* y requisitos técnicos para salas de conciertos.
+3.  **Analíticas B2B:** Integrar Google Analytics o un píxel de rastreo ligero para conocer demografía de visitantes y evaluar la retención de promotores.
+4.  **Fechas de Gira (Touring):** Crear un componente interactivo para listar próximos conciertos y venta de entradas.
+
 ---
-*Desarrollado y gestionado bajo el sello de Maison Quintessence.*
+*Diseñado, Desarrollado y Gestionado bajo el sello de Maison Quintessence.*

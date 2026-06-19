@@ -10,6 +10,14 @@ All notable changes to this project will be documented in this file.
 - **Reproductor Spotify:** Implementación del iframe oficial del perfil de Spotify (`ID: 6c14Cph5lRro0lzSOiQGTS`).
 - **Sección Multimedia en Grid:** Dos reproductores de YouTube ("Me Tienes Mal" oficial y la versión Acústica en vivo) en una cuadrícula (grid) adaptativa (Side-by-side en Desktop).
 - **Foto Oficial:** Foto de perfil extraída e inyectada en el directorio `/src/assets/eddy-profile.jpg` para renderización optimizada en la sección de biografía.
+- **SEO & Open Graph:** Inyección de metaetiquetas en `index.html` para previsualizaciones premium al compartir el enlace en WhatsApp/Redes Sociales.
+- **Despliegue CI/CD:** Vinculación exitosa del repositorio GitHub (`AlchemistSidZCool/eddy-soundscapes`) con Netlify.
+
+### Correcciones (Fixed)
+- **UI Móvil (Hotfix):** 
+  - Ajuste de la cuadrícula multimedia (`.music-grid`) para escalar correctamente en dispositivos < 400px de ancho.
+  - Corrección de desbordamiento de fuentes en `h1` y títulos de sección en resoluciones móviles.
+  - Ajuste de los botones del CTA (ancho 100% en el cuerpo, pero compacto en la barra de navegación para evitar superposiciones con el logotipo).
 
 ### Cambiado (Changed)
 - **Estilos Globales (CSS):** Implementación de la paleta de colores "Stage Lighting Luxury" basada en el estudio visual oficial del artista (luces magenta/cyan sobre fondo negro profundo con acentos en madera/ámbar de guitarra).
