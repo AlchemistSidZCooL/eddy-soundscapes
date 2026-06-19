@@ -47,7 +47,7 @@ function App() {
           <section className="discography-section" style={{ background: 'rgba(255,255,255,0.02)', borderTop: '1px solid rgba(255,255,255,0.05)', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
               <div className="container">
                   <h2 className="section-title">Escucha</h2>
-                  <div className="music-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '3rem' }}>
+                  <div className="music-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '3rem' }}>
                       
                       {/* YouTube Video Embed 1 */}
                       <div className="youtube-embed" style={{ width: '100%' }}>
