@@ -1,0 +1,154 @@
+# Letras de Canciones Antiguas (Transcripción Automática)
+
+*Nota: La IA transcribe voz. La presencia de instrumentos puede afectar la exactitud.*
+
+## 🎵 aqui contigo.mp3
+Hoy quiero ser la mancha que rodó por tu mejilla Y todavía pienso el ayer mirando poco a poco en tus pupilas sentirías Y a veces que lo intento que se acafó mi esfuerzo, se ahora sé que mi vida Quiero que me hagas es quiero que me peces, que me sientas Aunque sea mi empresa solo llévanme aquí con un tío Quiero que me mires y que no me mientas, que me entiendas Aunque pierdas la cuenta solo llévanme aquí con un tío Hoy quiero ser la luz en tu ventana Eso que te despiertan las manganas, voy esta vez con cuerdas de guitarra Voy a descarrarte el alma Y a veces que lo intento descifrando tu silencio entraré al cundía Y a veces que lo intento que se acafó mi esfuerzo, se ahora sé que mi vida Quiero que me hagas es quiero que me peces, que me sientas Aunque sea mi empresa solo llévanme aquí con un tío Quiero que me mires y que no me mientas, que me entiendas Aunque pierdas la cuenta solo llévanme aquí con un tío Aquí con un tío Aquí con un tío Aquí con un tío Subtítulos por la comunidad de Amara.org
+
+---
+
+## 🎵 artist - al amanecer.mp3
+No sentar tantas miradas, me siento comprende Que estás bien Que es un solo la esquencia Que hace de aprender lo que es querer Escribiendo un poema Que desvanece Que hay un dolor El dolor que mi alma lleva Mi camino de aire es el Cruciflito, camándote Pizando el espíritu Que máscara la tarde se hicimos Llorando feí Y frías a la noche y tu labio Al amanice Las palabras son existen En el punto de saber Qué es tener Y tu rostro en una noche Mi camino de aire Pizito, camándote Pizando el asfalto Y raspar a la tarde se hicimos Llorando feí Y frías a la noche y tu labio Al amanice Al amanice Subtítulos por la comunidad de Amara.org
+
+---
+
+## 🎵 artist - con una cancion.mp3
+Subtítulos por la comunidad de Amara.org Subtítulos por la comunidad de Amara.org
+
+---
+
+## 🎵 artist - en mis venas.mp3
+¡Es el miedo de estar sin ti! De desnudarme sin poder abrir Ese cuerpo de agua y volvó bris Mi cuerpo muere sudor y me baño el sí Por agua de la vez sin poder allí Soñar de nuevo sin pensar en ti Y sorprendes esa duda en mí, quitarte el arroz Y sin poder dormir por el calor que manas tu cuerpo en mí Y es el sí, es el sí Y sorprendes esa duda en mí, quitarte el arroz Y sin poder dormir por el calor que manas tu cuerpo en mí Y sin poder dormir por el calor que manas tu cuerpo en mí Y por miedo morir y por mis venados circulan las desgarras que muerdas mi alma No quiero no despertar y no quiero que te ganchinara No quiero despertar y no quiero No quiero no despertar y no quiero que te ganchinara No quiero no despertar y no quiero que te ganchinara No quiero despertar y no quiero
+
+---
+
+## 🎵 artist - vete lejos.mp3
+Y es olvidado aquellos temores y aquellas emociones tratando de explicarte que amandote mis uñas desgaran mi carne y en mil pedazos mis ojos y mi aliento no te vaden mis labios en tu piel siempre unantes y siempre preocupantes Y ahora no quiero vivir sin ti tratando de morirme si en mis venas Lárgate y no vuelvas por aquí me hiciste sufrir que no quiero más sentir así por ti Vete lejos de esa nube de tus sueños no se sentiría la verdad estoy muriendo por pensar en ti así Y es olvidado aquellos sabores y aquellas sensaciones tratando de saber por qué Y has olvidado que yo te he buscado como un desesperado y mi cuerpo está en tus labios no no Yo no se alí de ti de vivir en mi cuerpo Lárgate y no vuelvas por aquí me hiciste sufrir que no quiero más sentir así por ti Vete lejos de esa nube de tus sueños no se sentiría la verdad estoy muriendo por pensar en ti así No quiero sentir así Subtítulos por la comunidad de Amara.org Subtítulos por la comunidad de Amara.org
+
+---
+
+## 🎵 beybe..mp3
+tan obscuras estas calles tan sola en la ciudad se siente tan vacía si no estás y hoy mis manos no tocan nada más que melodías de canciones pa llorar y yo siento que estoy loco, estoy perdido veo las hojas y las flores marchitar porque te has ido ubebeben llueven lágrimas de ella sus manos ahora son las estrellas y aquel viejo mesón respiro de ella de su boca, del sol, dolor y en canciones yo te grito, ay amor y yo siento que estoy loco, estoy perdido quisiera hoy llamar y preguntarte hola nena, como estas y repetirte ubebeben llueven lágrimas de ella llueven lágrimas de ella llueven lágrimas de ella llueven lágrimas de ella llueven lágrimas de ella
+
+---
+
+## 🎵 eres.mp3
+Si el medo está contigo, no te apartes del camino Porque yo sé que lo que te falta es estar conmigo La miranza de tu cuerpo a mis ojos que te esperan van notando que por dentro Y por mi te desesperas de tu amor mi medicina Esa suerte cuando miras hacia el cielo y ha parado de llover Porque tienes las miras en mis ojos que sueres mi mitad y mi todo Voy a apartarte de mi lado un error que no podrías cometer Porque tu eres la esperanza en mis ojos que sueres mi mitad y mi todo Voy a apartarte de mi lado un error que no podrías Eres fuego que me quema Eres sierva que venena Eres todo lo que quiero no me dejes que me muero Y por mi te desesperas de tu amor mi medicina Esa suerte cuando miras hacia el cielo y ha parado de llover Porque tienes las miras en mis ojos que sueres mi mitad y mi todo Voy a apartarte de mi lado un error que no podrías cometer Porque tienes las miras en mis ojos que sueres mi mitad y mi todo Voy a apartarte de mi lado un error que no podrías cometer Porque tu eres la esperanza en mis ojos porque sueres mi mitad y mi todo Voy a apartarte de mi lado un error que no podrías cometer
+
+---
+
+## 🎵 estare esperandote.mp3
+He pensado en vivir, lo he intentado comprender He pensado que tarde pero todo es Como tarde de lluvia, como tasa sin un terro He hablado conmigo, se tomado café Para ver si de noche te puedo ver He pensado que tarde pero todo fue Pase lo que pase, yo estaré aquí Pase lo que pase, veraré por ti Aunque pase noche solo sin dormir Y aunque pase mañana se esperándote Y aunque pase el mitad de recordándote Aunque tardes nunca te pueda ver Estaré esperándote El pintador y sol que se he tocado a canciones El leiro mi libro, estoy inventado razones Aunque esté ya cansada de esperar un porqué Estaré esperándote Pase lo que pase, yo estaré aquí Pase lo que pase, esperaré por ti Aunque pase noche solo sin dormir Pase lo que pase, yo oraré aquí Pase lo que pase, esperaré por ti Aunque pase noche solo sin dormir Y aunque pase mañana se esperándote Y aunque pase el mitad de recordándote Aunque tardes nunca te pueda ver Estaré esperándote El pintador y sol que se he tocado a canciones El leiro mi libro, estoy inventado razones Aunque esté ya cansada de esperar un porqué Estaré esperándote Estaré esperándote Estaré esperándote Estaré esperándote Estaré esperándote Estaré esperándote Estaré esperándote Estaré esperándote
+
+---
+
+## 🎵 ETERNA.mp3
+Donde están los sueños escumados sin razón? Donde está eso que un día ya me amor? Fundido en un mar donde no puedo tomar Donde ahora no podemos alcanzar Dursan las almas de papadas de sudor Donde están esos rincones de pasión Fundidos en un mar donde no puedo tomar Donde nunca pude soportar Voy apagándome el sudor Apagándome las alcohadas Apagándome la mozillo Voy arreglando el corazón Para poder desprender este cuerpo De todo esto que he llamado sentimiento Fundido en un mar donde no puedo tomar Donde nunca pude soportar Voy arreglando el corazón Para poder desprender este cuerpo De todo esto que he llamado sentimiento Si tú estás Voy apagándome el sudor Apagándome las alcohadas Apagándome la mozillo Voy arreglando el corazón Para poder desprender este cuerpo De todo esto que he llamado sentimiento Fundido en un mar donde no puedo tomar Donde nunca pude soportar Voy arreglando el corazón
+
+---
+
+## 🎵 Everlong - Foo Figthers (acoustic cover) by Bohemian Brothers.mp3
+Alejand regresantes Never long Tonight I draw myself into Out of the red, over your head she sang La música Calm down And wish the way you need Down with me Slow how You wanted it to be Over my head Out of your hair she sang And I wonder When I sing along with you If anything could ever fill this room forever If anything could ever fill this good again The only thing I'll ever ask of you If nothing from us not stopped when I sang The way she sang Pray down So I can breathe you in Of you And now I know you always been Out of your hair, out of my hand I sing And I wonder When I sing along with you If anything could ever fill this room forever If anything could ever fill this good again The only thing I'll ever ask of you If nothing from us not stopped when I sang The way she sang La música When I sing along with you If anything could ever fill this room forever If anything could ever fill this good again The only thing I'll ever ask of you If nothing from us not stopped when I sang The way she sang And I wonder When I sing along with you
+
+---
+
+## 🎵 lagimas de ella.mp3
+La luz cura es estas calles, tan sola la ciudad Se siente tan vacía si no estas y hoy en los manos no toca nada mas Que melodías de canciones pa llorar y yo siento que estoy loco, estoy perdido Veo las hojas y las flores machitas porque te ha sido el baby Dame de tu amor, dame de tu corazón, dame de tu cuerpo, de tu movimiento Lleven lágrimas de ella sus manos arasor, las estrellas y aquel viejo mesón Respiro de ella de su boca, de su dolor y en canciones yo te grito, ay amor Y yo siento que soy loco, estoy perdido si era hoy llamar Y preguntarte a una nena como estas y repetirte un baby Dame de tu amor, dame de tu corazón, dame de tu cuerpo, de tu movimiento Dame de tu amor, dame de tu corazón, dame de tu cuerpo, de tu movimiento Lleven lágrimas de ella Lleven lágrimas de ella Lleven lágrimas de ella ¡Suscríbete!
+
+---
+
+## 🎵 Loco.mp3
+Hoy voy a dar un respiro Voy a contarme lo que nunca he podido Que soy un loco desesperado Y me sumerjo entre tus manos Y quiero quedarme contigo para siempre Hoy beso lo que tus manos ya tocan Esas flores y cobijas de memoria Las tengo fijamente en mi pecho Desenredando tus cabellos Y creo que he llegado a enloquecerme sin razón Hoy voy a quedarme contigo A amarrarte de mi cama si es debido Voy a embriagarte de canela Y emborrachear tus oídos tus piernas Para que nunca te puedas marechar Hoy voy a quedarme dormido Para soñarte si no estás aquí conmigo No tengo muchas de las respuestas Porque me quieres y nunca me dejas Tal vez no sea el loco del Dios Hoy voy a quedarme contigo A amarrarte de mi cama si es debido Voy a embriagarte de canela Y emborrachear tus oídos tus piernas Para que nunca te puedas marechar Hoy voy a quedarme contigo A amarrarte de mi cama si es debido Voy a embriagarte de canela Y emborrachear tus oídos tus piernas Para que nunca te puedas marechar Hoy voy a quedarme dormido Para soñarte si no estás aquí conmigo No tengo muchas de las respuestas Porque me quieres y nunca me dejas Tal vez no sea el loco del Dios Del Dios
+
+---
+
+## 🎵 maqueta 5 tras tu ventana.mp3
+Amor que no lo mure y el cine es fuerte en un caso pelcón de té ahora debo aceptar que no puedo tenerte sé que te sientes diferente el cine es fuerte si me duele no ferre será en tu ventana cuando te escribes no hay de pedro no te duele como soy será en tu ventana si no soy movida y si no soy segura si te suelta que te abro escucha tus escuchas mi amor este es el hombre que me voy a sofrir a ti este es el cine el primer día en el que se suele recuperar que me fue tus palabras me lastimaron escuchar y al teneridad pues no se mi señor hombre que tu necesitas aquí llegue das en cada miro el cine es fuerte si no soy movida y si no soy segura si te suelta que te abro escucha tus escuchas mi amor si no soy segura si te suelta que te abro escucha tus escuchas mi amor este es el hombre que me voy a sofrir a ti y si no soy movida y si no soy segura si te suelta que te abro escucha tus escuchas mi amor si no soy movida y si no soy segura si te suelta que te abro escucha tus escuchas mi amor escucha tus escuchas mi amor escucha tus escuchas mi amor escucha tus escuchas mi amor
+
+---
+
+## 🎵 morir de amor..mp3
+Yo quiero que la vida me pase adelante Yo quiero que mi cuerpo recoge el sentido Dímate, cansados de camino me pongo cobalte Y vivo de recuerdos tomados del viento Yo quiero que tus manos labren mi destino Yo quiero que tu rostro recorre el sentido De amarme Yo quiero regalarte mi performsa estrella Yo quiero bounces de mi vida ter español Yo quiero que el mio es prós twice la vueltaAnother, ah no no no no no no Me pongo Yo quiero r constitute mi mangerá yo quiero quedında Гдеborn si una ronja Y con más de mil abrazos Morir de amor Ah, ah, morir de amor Yo quiero que tus manos labren mi destino Yo quiero que tu rosto recobre el sentido De marme Yo quiero más que mil abrazos Yo quiero más que mil pedazos De tu amor Yo quiero regalarte mi nomas estrella Yo quiero regalarte mi vida entera Yo quiero que de un beso tu me des la vuelta Na, na, na, na, na, na Yo quiero regalarte mi nomas estrella Yo quiero regalarte mi vida entera Yo quiero que de un beso tu me des la vuelta Y con más de mil abrazos Morir de amor Ah, ah, morir de amor Ah, ah, morir de amor Ah, ah, morir de amor Ah, ah, morir de amor
+
+---
+
+## 🎵 poco y profundo.mp3
+Música Hoy me despierto de madrugada Me voy bañada en tu sudor Mirando sonros, empezando amigos Hoy me desgarra el corazón Y me levanto con la ventana Estupañada sin razones Miran la cala, esta vacía Misena yando la razón Miro el espejo, está marcado Ponen la vía de que un día dejó Y en las cortinas veo su cuerpo Lo que profundo el movimiento Me ha enamorado, se ha marchitado Todas las flores que dejó Me duele tanto, arde por dentro Estás tan lejos y yo solo No estás aquí Miro, me muero porque esté cerca de mí Vivo encerrado, vivo atrapado Vivo tan solo y yo no existo Hoy me despierto solo Ando tan solo, no existo Miro tus ojos grises No sé si ya no existes Hoy me despierto solo Ando tan solo, no existo Miro tus ojos grises No sé si ya no existes ¡Es espiroso! ¡Es espiroso! ¡Es espiroso! ¡Es espiroso! ¡Es espiroso! ¡Es espiroso!
+
+---
+
+## 🎵 POR ELLA.mp3
+No comprendo más la vida si lo quiera No consigo conformarme con lo que tengo de ella Y no quiero más vivir sin su belleza Y enamorarte sin posible así no quiera Y si me pierdo locamente en su mirada Se me estalla la conciencia Y te juro que pierdo la cabeza Y te juro que no es solo una promesa Que yo te quiero de los pies a la cabeza Y soy yo por las noches Que me convierto en un estupido y tan soñador Que se castiga y se prohíbe y no habla de su corazón Porque le impide despertarse y levantarse por el sol Yo solo vivo por su cuerpo Y con sus piernas me embelezo ya no hay fuerzas pa' vivir Y me castigo porque eres la Dios Creo que lo quiso así Y ya no toco mi guitarra porque ya no sé vivir sin ella Ay, el mío Y soy yo por las noches Que me convierto en un estupido y tan soñador Que se castiga y se prohíbe y no habla de su corazón Porque le impide despertarse y levantar el corazón Por ella tengo este corde de guitarra Y sí, de rama por mis venas Es que no pido vida eterna, solo quiero descansar En un estupido tu garso lo con ella Con ella Con ella
+
+---
+
+## 🎵 que me meta un tiro.mp3
+Tengo el voodoo, no puedes salir Se queda sordo entre tanto ruido En este bar donde todo es subtil Prendo un cigarro, me acuerdo de ti Vas a olvidarte de todo Siento que voy a morir Nada, vas a separarte de mí Nada, vas a separarte de mí Nada, en tus ojos todo es natural Nada, vas a separarte de mí Siente de un menje de novedad Nada, vas a separarte de mí Nada, en tus ojos todo es natural Nada, vas a separarte de mí Siente de un menje de novedad De vez en cuando me siento sin ti Y es posible que me meta un tiro Yo sé que tiempo no me va a fallar Voy a esperarte aunque empiece a disparar Nada, nada Nada pasa en mi cama Cuando tú no estás aquí Nada, vas a separarte de mí Nada, en tus ojos todo es natural Nada, vas a separarte de mí Siente de un menje de novedad Nada, vas a separarte de mí Nada, en tus ojos todo es natural Nada, vas a separarte de mí Siente de un menje de novedad Nada, vas a separarte de mí Nada, en tus ojos todo es natural Nada, vas a separarte de mí Siente de un menje de novedad Nada, vas a separarte de mí Nada, en tus ojos todo es natural Nada, vas a separarte de mí Siente de un menje de novedad Menje de novedad Subtítulos por la comunidad de Amara.org
+
+---
+
+## 🎵 SAM BLASS-AY AMOR.mp3
+Uye, uye, uye, uye, uye, uye, uye, uye, uye Si vieras cuantas veces yo te enciendo Un velocito amarillo para que vuelvas conmigo Ahí, si tuvieras con la vela me aderrito Cada vez que di un soplido te respiro en el oído Ahí dime qué se ve, un sídolo Funciona por las noches que te llamo y me respongo Dígues, ay, ay, amor Escribo y te recuerdo, voy muriéndome por dentro Ay, ay, amor Me fumaré tus besos y me gastaré tu fuego Ay, amor Música Una forma de que pierda la cabeza Solamente con tus labios sé que pierdo hasta mis piernas Pero toda la noche que amanezca Ay, ay, para ver si me decir si quieres salir conmigo Ay, ya sé qué voy a hacer contigo Voy a cortar unas flores a poner en tu vestiguito Ay, ay, amor Escribo y te recuerdo, voy muriéndome por dentro Ay, ay, amor Si vieras cuantas veces yo diciendo un peloncito Ay, ay, amor Escribo y te recuerdo, voy muriéndome por dentro Ay, ay, amor Y me fumaré tus besos y me gastaré tu fuego Ay, amor Amor Ay, amor Amor Ay, amor Amor
+
+---
+
+## 🎵 SAM BLASS-ENVENENAME.mp3
+Me miro en el despejo y veo tu rostro Escribo con tus manos y cocino con tu enojo Te he vuelto ya la parte de mi vida Que llora cuando alguien la lastima Te respiro por tu cuerpo todo el tiempo Me odio por hacer un olor de Desfuelto ya el esclavo de tu boca Y esa boca de esa boca que provoca Soy un forlado noche cuando duermo Que mi amor ha de ser extrañado Que en tu pecho ves el calor Y en tu desbielor de eso ves mi llanto y yo el siento Y murriéndome en la mente me envenen Sídeme, me muerdenme, calcíname Sídeme, espírate, embreme, embreme, mujer Sídeme, me muerdenme, calcíname Sídeme, espírate, embreme, embreme, mujer Sídeme, me muerdenme, calcíname
+
+---
+
+## 🎵 SAM BLASS-ME DUELE.mp3
+Me dijiste adiós hace poco y me duele que no esté cerca de mí Porque vivir pensando siempre en otros y no comprendo porque aún yo sigo aquí Me duele cuando estás y no te toco cuando me digas si yo no te puedo ir De sensación me mata poco a poco y si no vuelves no podré sobrevivir así Me duele porque no estás junto a mí Si es que yo te he importado siempre poco no quiero que me vuelvas a meter Me duele cuando estás y no te toco cuando me digas si yo no te puedo ir De sensación me mata poco a poco y si no vuelves no podré sobrevivir así Me duele cuando estás y no te toco cuando me digas si yo no te puedo ir Me duele si no está que si tú te vas que si ya no estás ya no volverás Me duele si no está que si tú te vas que si ya no estás ya no volverás Me duele si no está mi corazón se muere y mi alma se va
+
+---
+
+## 🎵 SAM BLASS-UNO MAS.mp3
+Mi señal me ha mirar en cielo, sin envidia de su traje. A mirar el sol tan directo sin sentir dolor. enseñé a mí a sentir cariño de quien profesa perdón a cantar con el alma y sabes del corazón pero no, no dejes morir la esperanza que vi en ti porque no puedo olvidar tu forma de besar el veneno de la piel que ayer pude acariciar la magia que encontré en una mujer normal porque no puedo borrar que para ti soy un luz pero no, no dejes morir la esperanza que vi en ti porque no puedo olvidar tu forma de besar el veneno de la piel que ayer pude acariciar la magia que encontré en una mujer normal porque no puedo borrar que para ti soy uno más que para ti soy uno más porque tú nunca me vas a amar que para ti soy uno más porque tú nunca me vas a amar que para ti soy uno más
+
+---
+
+## 🎵 Tras_tu_ventana_acustico_TEMPO.mp3
+Mira el vacío en mi habitación que solo me siento Pero sigues en cada rinco y llueve el dolor es más fuerte Nunca supe comprenderte Ahora debo aceptar que no puedo tenerte ese Y que te sientes diferente Pero solo responde si te duele no verme Que será en la mañana cuando despiertes no haya calor Cuando te duele el corazón Que será en tu ventana si el sol no brille a ese destemos Si te das cuenta que ya no estoy, si ya no escuches mi voz Mmm... Dices que no debo suplicarte que ella es demasiado tarde No emprigaría que exista para recuperarte duele tus palabras me lastiman Escucharte a mi herida pues no soy ese hombre el que tu necesitas Aquí te quedas En cada rincon en mi habitación entre cada mañana detrás de tu ventana Que será en la mañana cuando despiertes no haya calor Cuando te duele el corazón Que será en tu ventana si el sol no brille a ese destemos Si te das cuenta que ya no subí, si ya no escuches mi voz Mmm... Que será en la mañana cuando despiertes no haya calor Cuando te duele el corazón Que será en tu ventana si el sol no brille a ese destemos Si te das cuenta que ya no subí, si ya no escuches mi voz Si te das cuenta que ya no subí Tras tu ventana
+
+---
+
+## 🎵 ya no estalla el sol.mp3
+Te anuncio y améntese dando tus ojos Para ver cómo se está acabando esto entre nosotros Puedo imaginarme besando tu rostro Y puede ser que no estés pensando en lo que ahora somos Sé también que se ha gastado tanto nuestro amor tan sordo Por haber mado siempre como locos Estoy me está acabando todo aunque lastime Antes sé que todo fue el culpa para que me olvides Y ya no aguanto más, listear a todo existe Pues ya no está ya el sol en este amor, se deciré Leónitamente aquellas cartas viejas Para ver si de tanto leje las memes creo con ellas Y quiero que sepas que cuentas conmigo Sepas que quiero que seas feliz aunque no estés conmigo Sé también que se ha gastado tanto nuestro amor tan sordo Oh no, por haber amado siempre como locos Sé también que se ha gastado tanto nuestro amor tan sordo Por haber mado siempre como locos Y ya no aguanto más, listear a todo existe Pues ya no está ya el sol en este amor, se deciré Oh no, por haber mado siempre como locos Sé también que se ha gastado tanto nuestro amor tan sordo Oh no, por haber amado siempre como locos Sé también que se ha gastado tanto nuestro amor tan sordo Y ya no aguanto más, listear a todo existe Oh no, por haber amado siempre como locos Sé también que se ha gastado tanto nuestro amor tan sordo Oh no, por haber amado siempre como locos Sé también que se ha gastado tanto nuestro amor tan sordo Oh no, por haber amado siempre como locos Sé también que se ha gastado tanto nuestro amor tan sordo por haber amado
+
+---
+
+## 🎵 Desiertos del deseo.MP3
+No sé cuando me como escapar De salida tan letal como escapar Criticiaño tu cuerpo es un misterio Y tus labios en mi piel desvié deseo Asa En tu veneno Y no hay voz más que tu cuerpo y tu silencio Que mulle en tu purpares de tu cuerpo Por decir por la deseo te afilaron a mi corazón Que mi mente se dirige a tu veneno A tus ojos y a tu cuerpo Y por poco que mi salvación es tu gito Que mis pielos sufren tanto peso En mis brazos sienten miedo no tratarás poder con vos Y mis posibles ligaris sin tus besos Se dirá mancón, besos por mis manos y hacia la canción MaxSe找 no Kush Mandando y se dice Ya por laousse Desde tu cuerpo por decirte un deseo Me pelaron a mi corazón Y mi mente se diga a tu venero A tus ojos y a tu cuerpo Y por lo que mi salvación Sobina a tu Sobina a tu Sobina a tu
+
+---
+
+## 🎵 Desnuda.MP3
+Dime como ves a ser cuando mis ojos se marañen y sientan el deseo de desnudar tu piel lentamente tu brasilla se cae al suelo creo que es un sueño y mi mente solo piensa en hacerte el amor vende desnuda me siente mi abraza muéreme que estoy aquí y a veces pienso en eso y tocando de toda la piel y los botones de tu boca no saben comprender que quitándote la luz abenamente mi cuerpo a la deriva de los villas sentí un beso y mi mente lentamente sientes en ojos de tus ojos de tu alma ala de tu cuerpo envuelto en esa banda no, no, no ya se me ha enterado el amor vende desnuda me siente mi abraza muéreme que estoy aquí y a veces pienso en eso y tocando de toda la piel los botones de tu boca no saben comprender que quitándote la luz abenamente mi cuerpo a la deriva de los villas sentí un beso y mi mente lentamente sientes en ojos de tus ojos de tu alma ala de tu cuerpo envuelto en esa banda vende desnuda me siente mi abraza muéreme que estoy aquí y a veces pienso en eso y tocando de toda la piel me siente mi abraza muéreme que estoy aquí vende desnuda vende desnuda vende desnuda vende desnuda vende desnuda vende desnuda vende desnuda
+
+---
+
+## 🎵 La rosa escarlata.MP3
+Mi espacio de silencio Mi espación es en silencio abandonadas Muy despacio mis huelles en tu cama Acechando muy despacio en tus labios marechitados Me voy quedando atrapado, no, no No, no, no Y me vas atrapando con tus garras Me vas dejando sin mis ganas Tu pelo rojo en tu espalda Y tus labios marechitados Descaran mi alma como rosa Escarratan tus manos Como espinas me atrapan Quieren me matar De dolor, un poco de calor Si quisiera yo podríaco Verdad a quién me tienes Y duele, y duele Porque no me amas Porque no me amas Porque no me amas Porque no me amas Porque no me amas
+
+---
+
+## 🎵 Por que estés aquí.MP3
+No sé expresar, no sé decir No sé pensar, no sé vivir Es como mirarte sin serme a ti Es como tocar a ti sin estar aquí y te espero Sentado que ilumine sin dormir, sin descubrir Lentamente voy a te asignar A ver si caigo entre la hierba gris Quemares mis ropas y se alir de aquí Mi piel desnuda corren hacia ti y descubrir Que es tan difícil el vivir así Dejos de ti Vive a mí Que me muero sin tu cuerpo sin sentir Ya no puedo más que mis ojos tocan al mirarte Que mis manos tocan al llorarte Que mi mente no puede escuchar si no estás aquí No sé cómo explica Que muero porque es desatis No sé qué decir No sé expresar, no sé decir No sé pensar, no sé vivir Es como mirarte sin sentir Es como tocar a ti sin estar Escúchame Voy a quemarme la piel con esta canción Te van a pedirte por el favor Que sientas de nuevo el corazón Mostrado en tu llanto de dolor Te miran los ojos sin amor y descubrir Que es tan difícil el vivir así Dejos de ti Vive a mí Que me muero sin tu cuerpo sin sentir Ya no puedo más que mis ojos tocan al llorar al mirarte Que mis manos no pueden dañarte Que mi mente no puede escuchar si no estás aquí No sé cómo explica Que muero porque es desatis Que muero porque es desatis Que muero porque es desatis
+
+---
+
+## 🎵 Rosío de tí.MP3
+Unidos a fin, amor, noches de sol y piel Si yo de ti soñarte y nada más Que no será un pato amor con celas y ron de dioses Amémonos entre las ales de tu mar Amémonos entre las sombras sin partir Perdí sobre las luetas de perdón Amémonos sobre las alas de dolor Amémonos sobre las alas de dolor Unidos a fin y sin dolor a venidas de luna y piel Escapando los dos en planetas de espadas Que no será un pato amor con celas y ron de dioses Amémonos entre las ales de tu mar Amémonos entre las sombras sin partir Perdí sobre las luetas de perdón Amémonos sobre las alas de dolor Amémonos entre las alas de dolor Si yo de ti soñarte y nada más Que no será pato amor ya no hay temores Amémonos entre las ales de tu mar Amémonos entre las sombras sin partir Perdí sobre las luetas de perdón Amémonos sobre las alas de dolor Amémonos entre las ales de tu mar Amémonos entre las sombras sin partir Perdí sobre las luetas de perdón Amémonos sobre las alas de dolor Amémonos entre las alas de dolor
+
+---
+
+## 🎵 Si no estás aquí.MP3
+Quiero que me vayan Siendo misma sin estar aquí Dime cuántos veces ese cuerpo Me lastima quemando mi rostro En caras de deseo Dime qué va a ser de mi vida Cuanto tu cuerpo esté ausente Si me quedas tú Recuerdo mi juramento Cuando el cielo se quiebra en pedazos Mi cuerpo será el techo Para no dañar de tu cuerpo Y un frente te daría mi vida Si no estás aquí Quiero que mi cuerpo ciegue carne Con tu cuerpo Que tu llanto se dibujé En mi techo Si no estás aquí Yo me muero Quiero que mi vida No sea lo misma Si no estás aquí Dime qué va a ser de mi vida Cuanto tu cuerpo me abandone Si me quedas tú Si me quedas tú Dime Que no es justo que te llore Que no es justo que me abandones Aunque cambie aunque mejore Dime qué va a ser de mi vida Cuanto tu cuerpo me abandone Solo me quedas tú Dime qué va a ser de mi vida Cuanto tu cuerpo esté ausente Solo me quedas tú Quiero que mi cuerpo ciegue carne Con tu cuerpo Que mi llanto se dibujé En tu techo Que tus manos hagan cariñón Más mi cuerpo Te estoy perdiendo Quiero que tu cuerpo ciegue carne Con mi cuerpo Que tu llanto se dibujé En mi techo Si no estás aquí Yo me muero
+
+---
+
+## 🎵 Siento celos.MP3
+Siento ser de tu pelo, que cae lentamente en tu espalda en marañas. Te quiero, cientos enus de tus manos, que acarician tus labios quemados de mis besos, de mis cantos. Siento ser de tu cuerpo, si te toca la viento seco te desblovas con mis besos, cientos enus. Siento ser de mi boca, que cada vez pronuncias tu nombre entre canciones en la sola. Te quiero, cientos enus, no lo niego de tu pelo, de tus manos, de tu cuerpo. Siento ser us de palabras simples, que salta en mi cuerpo. Siento ser us de tu cama, de tu ropa, que me aguarda cientos enus. Siento ser us de tu aliento de tu boca, de tus ojos, que me abogan que me dicen entre besos. Te quiero, cientos enus, no lo niego de mi, que se siente todo año.
+
+---
+

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eddy Soundscapes - Reproductor con Letras</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;800&display=swap');
+
+        :root {
+            --bg-color: #0b0b0f;
+            --accent: #00ffcc;
+            --accent-glow: rgba(0, 255, 204, 0.4);
+            --text-main: #ffffff;
+            --text-dim: #7a7a8c;
+            --glass-bg: rgba(25, 25, 35, 0.6);
+            --glass-border: rgba(255, 255, 255, 0.08);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(20, 30, 80, 0.4), transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(0, 255, 204, 0.1), transparent 50%);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .app-container {
+            width: 90%;
+            max-width: 1000px;
+            height: 85vh;
+            display: flex;
+            gap: 2rem;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 2rem;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+        }
+
+        /* Lado Izquierdo: Reproductor y Portada */
+        .player-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-right: 1px solid var(--glass-border);
+            padding-right: 2rem;
+        }
+
+        .cover-art {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #1a1a24, #2a2a3a);
+            box-shadow: 0 0 40px rgba(0,0,0,0.5), 0 0 0 4px var(--glass-border);
+            margin-bottom: 2rem;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: spin 15s linear infinite;
+            animation-play-state: paused;
+        }
+
+        .cover-art.playing {
+            animation-play-state: running;
+            box-shadow: 0 0 40px var(--accent-glow), 0 0 0 4px var(--accent);
+        }
+
+        .cover-art::after {
+            content: '';
+            width: 60px;
+            height: 60px;
+            background: var(--bg-color);
+            border-radius: 50%;
+            border: 2px solid #333;
+        }
+
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+
+        .track-info {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .track-title {
+            font-size: 2rem;
+            font-weight: 800;
+            margin: 0;
+            background: linear-gradient(to right, #fff, var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .track-artist {
+            font-size: 1.2rem;
+            color: var(--text-dim);
+            margin-top: 0.5rem;
+        }
+
+        audio {
+            width: 100%;
+            border-radius: 12px;
+            outline: none;
+        }
+        
+        audio::-webkit-media-controls-panel {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Lado Derecho: Letras */
+        .lyrics-section {
+            flex: 1.5;
+            overflow-y: auto;
+            position: relative;
+            padding: 2rem;
+            scroll-behavior: smooth;
+            background-color: transparent;
+        }
+        
+        .lyrics-section::-webkit-scrollbar {
+            display: none; /* Hide scrollbar for cleaner look */
+        }
+
+        .lyric-line {
+            font-size: 2.2rem;
+            font-weight: 800; /* Bold typography like Spotify */
+            color: #4a4a5a; /* Dimmed state */
+            margin: 1rem 0;
+            transition: color 0.3s ease;
+            cursor: pointer;
+            line-height: 1.3;
+            letter-spacing: -0.5px;
+        }
+
+        .lyric-line:hover {
+            color: #7a7a8c;
+        }
+
+        .lyric-line.active {
+            color: #ffffff; /* Bright white for active line */
+        }
+
+        @media (max-width: 768px) {
+            .app-container {
+                flex-direction: column;
+                height: 100vh;
+                border-radius: 0;
+                border: none;
+                width: 100%;
+            }
+            .player-section {
+                border-right: none;
+                border-bottom: 1px solid var(--glass-border);
+                padding-right: 0;
+                padding-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="player-section">
+            <div class="cover-art" id="cover"></div>
+            <div class="track-info">
+                <h1 class="track-title">Esta Noche</h1>
+                <div class="track-artist">Eddy Castaño</div>
+            </div>
+            <audio id="audio" controls>
+                <source src="ESTA NOCHE.wav" type="audio/wav">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </div>
+
+        <div class="lyrics-section" id="lyrics-container">
+            <!-- Letras inyectadas por JS -->
+        </div>
+    </div>
+
+    <script>
+        // Datos VTT generados por Whisper
+        const vttData = `WEBVTT
+
+00:00.000 --> 00:27.160
+La luna cae sobre la ciudad, un ecueterno que vuelve a sonar. La brisa fría me quiere hablar,
+
+00:27.160 --> 00:30.560
+Pero tus ojos no dejan de gritar
+
+00:30.560 --> 00:34.560
+Sombras bailan en este rincón
+
+00:34.560 --> 00:38.560
+Marcando un pulso de mi obsesión
+
+00:38.560 --> 00:42.360
+El tiempo no era, no irredención
+
+00:42.360 --> 00:46.160
+Tus labios guardan mi malición
+
+00:46.160 --> 00:48.760
+Y aunque trato me escapar
+
+00:48.760 --> 00:53.760
+Tu nombre no deja de quemar
+
+00:53.760 --> 00:56.360
+El silencio empieza a hablar
+
+00:56.360 --> 00:58.760
+No sé si quiero despertar
+
+00:58.760 --> 01:00.760
+Esta noche
+
+01:00.760 --> 01:02.560
+Esta noche no es final
+
+01:02.560 --> 01:06.360
+Somos huevos, somos vientos, somos males
+
+01:06.360 --> 01:09.360
+Entre el lucecife, no veas todo
+
+01:09.360 --> 01:11.360
+Es real y el abismo
+
+01:11.360 --> 01:13.360
+No se siente tan letal
+
+01:20.360 --> 01:24.360
+Es miedo a arte, no hay compasión
+
+01:24.360 --> 01:28.360
+Tu risa corta como un caño
+
+01:28.360 --> 01:32.360
+Nos queda poco en esta estación
+
+01:32.360 --> 01:36.360
+Tus almas locas sin dirección
+
+01:36.360 --> 01:39.360
+Esta noche
+
+01:39.360 --> 01:41.360
+Esta noche no es final
+
+01:41.360 --> 01:44.360
+Somos huevos, somos vientos, somos males
+
+01:44.360 --> 01:47.360
+Entre el lucecife, no veas todo
+
+01:47.360 --> 01:49.360
+Es real y el abismo
+
+01:49.360 --> 01:52.360
+No se siente tan letal
+
+01:52.360 --> 01:54.360
+Para que el tiempo muere aquí
+
+01:54.360 --> 01:57.360
+Sin pasados sin por venir
+
+01:59.360 --> 02:01.360
+Deja que el mundo quiere así
+
+02:01.360 --> 02:05.360
+Somos huevos aquí
+
+02:05.360 --> 02:25.360
+Esta noche, esta noche
+
+02:25.360 --> 02:29.360
+Tu nombre no deja de quemar
+
+02:29.360 --> 02:33.360
+Esta noche, esta noche
+
+02:33.360 --> 02:38.360
+De silencio no se siente tan letal`;
+
+        function parseTime(timeStr) {
+            const parts = timeStr.split(':');
+            let seconds = 0;
+            if(parts.length === 3) {
+                seconds = parseInt(parts[0]) * 3600 + parseInt(parts[1]) * 60 + parseFloat(parts[2]);
+            } else if (parts.length === 2) {
+                seconds = parseInt(parts[0]) * 60 + parseFloat(parts[1]);
+            }
+            return seconds;
+        }
+
+        function parseVTT(vtt) {
+            const lines = vtt.split('\\n'); // Corrección del split
+            // En template literals puede venir como salto de línea normal
+            const actualLines = vtt.split(/\\r?\\n/);
+            const lyrics = [];
+            let currentLyric = null;
+
+            for (let i = 0; i < actualLines.length; i++) {
+                const line = actualLines[i].trim();
+                if (line === 'WEBVTT' || line === '') continue;
+                
+                if (line.includes('-->')) {
+                    const times = line.split(' --> ');
+                    currentLyric = {
+                        start: parseTime(times[0]),
+                        end: parseTime(times[1]),
+                        text: ''
+                    };
+                } else if (currentLyric) {
+                    currentLyric.text += (currentLyric.text ? ' ' : '') + line;
+                    lyrics.push(currentLyric);
+                    currentLyric = null;
+                }
+            }
+            return lyrics;
+        }
+
+        const lyrics = parseVTT(vttData);
+        const container = document.getElementById('lyrics-container');
+        const audio = document.getElementById('audio');
+        const cover = document.getElementById('cover');
+
+        // Render lyrics
+        lyrics.forEach((lyric, index) => {
+            const div = document.createElement('div');
+            div.className = 'lyric-line';
+            div.innerText = lyric.text;
+            div.id = 'lyric-' + index;
+            
+            // Allow clicking on a lyric to jump to that time
+            div.addEventListener('click', () => {
+                audio.currentTime = lyric.start;
+                audio.play();
+            });
+
+            container.appendChild(div);
+        });
+
+        // Sync lyrics with audio
+        audio.addEventListener('timeupdate', () => {
+            const currentTime = audio.currentTime;
+            
+            lyrics.forEach((lyric, index) => {
+                const el = document.getElementById('lyric-' + index);
+                
+                if (currentTime >= lyric.start && currentTime <= lyric.end) {
+                    if (!el.classList.contains('active')) {
+                        // Remove active from all
+                        document.querySelectorAll('.lyric-line').forEach(line => line.classList.remove('active'));
+                        // Add active to current
+                        el.classList.add('active');
+                        // Scroll into view nicely centered
+                        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                } else if (currentTime < lyric.start || currentTime > lyric.end) {
+                    el.classList.remove('active');
+                }
+            });
+        });
+
+        // Handle cover art rotation
+        audio.addEventListener('play', () => {
+            cover.classList.add('playing');
+        });
+        
+        audio.addEventListener('pause', () => {
+            cover.classList.remove('playing');
+        });
+    </script>
+</body>
+</html>

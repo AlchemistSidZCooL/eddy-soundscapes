@@ -1,13 +1,82 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './index.css';
 import eddyProfile from './assets/eddy-profile.jpg';
 
 function App() {
+  const [playing, setPlaying] = useState(true);
+  const [muted, setMuted] = useState(true);
+  const playerRef = useRef(null);
+
+  useEffect(() => {
+    if (!window.YT) {
+      const tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      const firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      
+      window.onYouTubeIframeAPIReady = () => {
+        playerRef.current = new window.YT.Player('yt-player-bg', {
+          videoId: 'V2aTjthmw7M',
+          playerVars: {
+            autoplay: 1,
+            mute: 1,
+            controls: 0,
+            showinfo: 0,
+            rel: 0,
+            modestbranding: 1,
+            loop: 1,
+            playlist: 'V2aTjthmw7M'
+          },
+          events: {
+            onReady: (event) => {
+              event.target.playVideo();
+            }
+          }
+        });
+      };
+    }
+  }, []);
+
+  const togglePlay = () => {
+    if (playerRef.current && typeof playerRef.current.pauseVideo === 'function') {
+      if (playing) {
+        playerRef.current.pauseVideo();
+      } else {
+        playerRef.current.playVideo();
+      }
+      setPlaying(!playing);
+    }
+  };
+
+  const toggleMute = () => {
+    if (playerRef.current && typeof playerRef.current.unMute === 'function') {
+      if (muted) {
+        playerRef.current.unMute();
+      } else {
+        playerRef.current.mute();
+      }
+      setMuted(!muted);
+    }
+  };
+
   return (
     <>
+      <div className="video-background">
+        <div id="yt-player-bg" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', minWidth: '100vw', minHeight: '56.25vw', width: '177.77vh', height: '100vh', pointerEvents: 'none', opacity: 0.3 }}></div>
+      </div>
       <div className="noise-overlay"></div>
       <nav className="navbar fade-in">
           <div className="logo" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--accent)' }}>E.C</div>
+          
+          <div className="media-controls" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+            <button onClick={togglePlay} style={{ background: 'transparent', border: '1px solid rgba(255,255,255,0.2)', color: 'var(--text-primary)', padding: '0.4rem 1rem', borderRadius: '50px', cursor: 'pointer', fontFamily: 'var(--font-sans)', fontSize: '0.8rem', textTransform: 'uppercase', transition: 'all 0.3s ease' }}>
+              {playing ? '⏸ Pausar' : '▶ Play'}
+            </button>
+            <button onClick={toggleMute} style={{ background: muted ? 'transparent' : 'var(--accent)', border: '1px solid var(--accent)', color: muted ? 'var(--accent)' : 'var(--bg-color)', padding: '0.4rem 1rem', borderRadius: '50px', cursor: 'pointer', fontFamily: 'var(--font-sans)', fontSize: '0.8rem', textTransform: 'uppercase', fontWeight: muted ? 'normal' : 'bold', transition: 'all 0.3s ease' }}>
+              {muted ? '🔈 Sonido OFF' : '🔊 Sonido ON'}
+            </button>
+          </div>
+
           <a href="https://wa.me/34625871008?text=Hola%20Eddy,%20vengo%20de%20tu%20web%20y%20me%20interesa%20contactarte%20para..." target="_blank" rel="noreferrer" className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem' }}>Contactar</a>
       </nav>
 
@@ -15,7 +84,8 @@ function App() {
           <div className="hero-content">
               <h1 className="reveal-text">EDDY <br/> CASTAÑO</h1>
               <p className="subtitle fade-in" style={{ letterSpacing: '0.15em', textTransform: 'uppercase', fontSize: '0.9rem', color: 'var(--accent)' }}>Cantautor | Compositor | Live Performer</p>
-              <div className="social-links fade-in" style={{ marginTop: '1rem', gap: '1.5rem', display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <div className="social-links fade-in" style={{ marginTop: '1rem', gap: '1.5rem', display: 'flex', justifyContent: 'center', flexWrap: 'wrap', alignItems: 'center' }}>
+                  <a href="https://www.youtube.com/watch?v=V2aTjthmw7M" target="_blank" rel="noreferrer" className="btn btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem', background: '#ff0000', color: 'white', border: 'none', boxShadow: '0 0 15px rgba(255,0,0,0.5)', textTransform: 'uppercase', fontWeight: 'bold' }}>▶ VER NUEVO VIDEOCLIP</a>
                   <a href="https://www.instagram.com/eddycamusic/" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontFamily: 'var(--font-sans)', letterSpacing: '0.1em', fontSize: '0.9rem' }}>Instagram</a>
                   <a href="https://www.facebook.com/eddycamusic/" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontFamily: 'var(--font-sans)', letterSpacing: '0.1em', fontSize: '0.9rem' }}>Facebook</a>
                   <a href="https://soundcloud.com/eddycastano" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontFamily: 'var(--font-sans)', letterSpacing: '0.1em', fontSize: '0.9rem' }}>SoundCloud</a>
@@ -82,6 +152,9 @@ function App() {
                       <a href="https://music.apple.com/co/artist/eddy-casta%C3%B1o/1837016024" target="_blank" rel="noreferrer" className="btn btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.8rem 1.5rem', borderRadius: '50px' }}>
                           🎵 Apple Music
                       </a>
+                      <a href="https://www.youtube.com/@EDDYMUSICA" target="_blank" rel="noreferrer" className="btn btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.8rem 1.5rem', borderRadius: '50px' }}>
+                          ▶ YouTube
+                      </a>
                   </div>
 
                   {/* Spotify Embed */}
@@ -95,6 +168,8 @@ function App() {
                   </div>
               </div>
           </section>
+
+          {/* Secciones de Lives y Covers ocultas temporalmente para limpiar el diseño y hacer la web más compacta y premium */}
           
           <section className="repertoire-section">
               <div className="container">

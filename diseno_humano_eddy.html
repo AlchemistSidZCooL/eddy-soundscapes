@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carta de Diseño Humano y perfil energético de John Edisson Castaño Marín para el proyecto Eddy Soundscapes.">
+    <title>Diseño Humano - Eddy Soundscapes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-main: #f8f8f2;
+            --text-muted: #a0a0a0;
+            --accent-yellow: #fcd53f;
+            --accent-orange: #e08b46;
+            --border-glow: rgba(252, 213, 63, 0.2);
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 3rem;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 0.5rem;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--accent-orange);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 4rem 0 2rem;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .section-title h2 {
+            font-size: 2.2rem;
+            color: var(--accent-orange);
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+
+        .section-title p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        /* EPISODIOS GRID (Scroll horizontal) */
+        .episodes-wrapper {
+            display: flex;
+            overflow-x: auto;
+            gap: 1.5rem;
+            padding-bottom: 2rem;
+            snap-type: x mandatory;
+        }
+
+        .episodes-wrapper::-webkit-scrollbar {
+            height: 8px;
+        }
+        .episodes-wrapper::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.05);
+            border-radius: 4px;
+        }
+        .episodes-wrapper::-webkit-scrollbar-thumb {
+            background: var(--accent-orange);
+            border-radius: 4px;
+        }
+
+        .episode-card {
+            flex: 0 0 350px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            scroll-snap-align: start;
+            border: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease;
+        }
+
+        .episode-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-yellow);
+        }
+
+        .episode-header {
+            padding: 1.5rem 1.5rem 0.5rem;
+        }
+
+        .episode-header h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.4rem;
+            color: #fff;
+            margin-bottom: 0.2rem;
+        }
+        
+        .episode-header span {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #fff;
+            text-decoration: underline;
+            text-decoration-color: var(--accent-orange);
+        }
+
+        .episode-image {
+            width: 100%;
+            height: 200px;
+            background: #2a2a2a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Gradiente oscuro sobre las imágenes para el texto */
+        .episode-image::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+
+        .episode-image h4 {
+            position: relative;
+            z-index: 2;
+            font-family: 'Outfit', sans-serif;
+            font-size: 2rem;
+            color: var(--accent-yellow);
+            text-align: center;
+            font-weight: 900;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+            line-height: 1.1;
+        }
+
+        .episode-image h4 span {
+            display: block;
+            font-size: 1.2rem;
+            color: #fff;
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .episode-body {
+            padding: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .episode-body p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+
+        .btn-leer {
+            display: block;
+            width: 100%;
+            background: var(--accent-yellow);
+            color: #000;
+            text-align: center;
+            padding: 1rem;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-leer:hover {
+            background: #e5bf33;
+        }
+
+        /* Detalles Generador Manifestante */
+        .gm-details {
+            background: linear-gradient(145deg, #1e1e1e 0%, #151515 100%);
+            border-radius: 16px;
+            padding: 3rem;
+            margin-top: 4rem;
+            border-left: 5px solid var(--accent-yellow);
+        }
+
+        .gm-details h2 {
+            font-family: 'Outfit', sans-serif;
+            color: var(--accent-yellow);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .gm-details p {
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            color: #ddd;
+        }
+
+        .gm-details ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #ddd;
+        }
+        
+        .gm-details li { margin-bottom: 0.5rem; }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JOHN EDISSON CASTAÑO MARÍN</h1>
+            <p class="subtitle">Carta de Diseño Humano • Eddy Soundscapes</p>
+            <p style="color: var(--text-muted); margin-top: 0.5rem;">Manizales, Colombia | 05/07/1985 02:00</p>
+        </header>
+
+        <div class="section-title">
+            <h2>AQUÍ, TU RESUMEN PERSONALIZADO</h2>
+            <p>Desliza para ver los <strong>siete episodios</strong> de tu resumen.</p>
+            <p style="font-size: 0.9rem;">¡Disfruta de la lectura! 😎</p>
+        </div>
+
+        <div class="episodes-wrapper">
+            <!-- Episodio 1 -->
+            <div class="episode-card">
+                <div class="episode-header">
+                    <h3>Episodio 1</h3>
+                    <span>LA ENERGÍA G. MANIFESTANTE</span>
+                </div>
+                <!-- Imagen simulada con gradiente y texto -->
+                <div class="episode-image" style="background-image: url('https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                    <h4>TIPO ÁURICO<br><span>G. Manifestante</span></h4>
+                </div>
+                <div class="episode-body">
+                    <p>Descubre qué viniste a sentir cómo Generador Manifestante, qué te diferencia del resto, cómo estás diseñado para trabajar, moverte por la vida, relacionarte y vivir tu sexualidad, desde tu máxima alineación.</p>
+                    <button class="btn-leer">LEER EPISODIO</button>
+                </div>
+            </div>
+
+            <!-- Episodio 2 -->
+            <div class="episode-card">
+                <div class="episode-header">
+                    <h3>Episodio 2</h3>
+                    <span>ESPERAR PARA RESPONDER</span>
+                </div>
+                <div class="episode-image" style="background-image: url('https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                    <h4>ESTRATEGIA<br><span>Esperar para responder</span></h4>
+                </div>
+                <div class="episode-body">
+                    <p>Entiende por qué no estás diseñado para tomar acción sin ganas, qué cambia en tu día cuando confías en las señales de tu cuerpo y cómo moverte más alegremente por la vida respondiendo a estímulos.</p>
+                    <button class="btn-leer">LEER EPISODIO</button>
+                </div>
+            </div>
+
+            <!-- Episodio 3 -->
+            <div class="episode-card">
+                <div class="episode-header">
+                    <h3>Episodio 3</h3>
+                    <span>AUTORIDAD SACRAL</span>
+                </div>
+                <div class="episode-image" style="background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                    <h4>AUTORIDAD<br><span>Autoridad Sacral</span></h4>
+                </div>
+                <div class="episode-body">
+                    <p>Comprende por qué no te beneficia decidir desde la mente, qué ocurre cuando haces caso a las señales de tu cuerpo y en qué situaciones deberías empezar a aplicar sí o sí tu Estrategia y Autoridad.</p>
+                    <button class="btn-leer">LEER EPISODIO</button>
+                </div>
+            </div>
+
+            <!-- Episodio 4 -->
+            <div class="episode-card">
+                <div class="episode-header">
+                    <h3>Episodio 4</h3>
+                    <span>LÍNEAS & PERFIL 4/1</span>
+                </div>
+                <div class="episode-image" style="background-image: url('https://images.unsplash.com/photo-1511556532299-8f662fc26c06?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                    <h4>PERFIL<br><span>Líneas & Perfil 4/1</span></h4>
+                </div>
+                <div class="episode-body">
+                    <p>Es el carácter con el que interpretamos nuestro diseño. Lo que tiñe todo en nuestro proceso: la forma de aprender, socializar, vincularnos en la intimidad, mostrarnos al mundo y cumplir nuestro propósito.</p>
+                    <button class="btn-leer">LEER EPISODIO</button>
+                </div>
+            </div>
+
+            <!-- Episodio 5 -->
+            <div class="episode-card">
+                <div class="episode-header">
+                    <h3>Episodio 5</h3>
+                    <span>DEFINICIÓN SIMPLE</span>
+                </div>
+                <div class="episode-image" style="background-image: url('https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                    <h4>DEFINICIÓN<br><span>Simple o Singular</span></h4>
+                </div>
+                <div class="episode-body">
+                    <p>Descubre qué te hace ser tan autosuficiente, cómo convivir con esa independencia al lado de quienes necesitan más de ti, y por qué a veces solo quieres estar solo y a tu aire para todo.</p>
+                    <button class="btn-leer">LEER EPISODIO</button>
+                </div>
+            </div>
+
+            <!-- Episodio 6 -->
+            <div class="episode-card">
+                <div class="episode-header">
+                    <h3>Episodio 6</h3>
+                    <span>SATISFACCIÓN VS. FRUSTRACIÓN</span>
+                </div>
+                <div class="episode-image" style="background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                    <h4>FIRMA VS. NO-SER<br><span>Satisfacción vs. Frustración</span></h4>
+                </div>
+                <div class="episode-body">
+                    <p>Descubre qué sensaciones te indican que vas por el camino correcto y cuáles te avisan de que te estás desviando. Aprende a reconocer tu señal interna de alineación y cómo usarla para volver a ti.</p>
+                    <button class="btn-leer">LEER EPISODIO</button>
+                </div>
+            </div>
+
+            <!-- Episodio 7 -->
+            <div class="episode-card">
+                <div class="episode-header">
+                    <h3>Episodio 7</h3>
+                    <span>ENTORNO, DIGESTIÓN Y SENTIDO</span>
+                </div>
+                <div class="episode-image" style="background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                    <h4>VARIABLES<br><span>Entorno, Digestión & Sentido</span></h4>
+                </div>
+                <div class="episode-body">
+                    <p>Descubre cuál es tu manera más óptima para nutrirte a través de la alimentación (Apetito Consecutivo) y la información que te rodea, qué entornos te sientan mejor (Montañas) y tu sentido intuitivo (Visión Externa).</p>
+                    <button class="btn-leer">LEER EPISODIO</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="gm-details">
+            <h2>🔥 ¿Qué significa ser un Generador Manifestante? (En profundidad)</h2>
+            <p>Como <strong>Generador Manifestante</strong>, tienes un diseño áurico híbrido, que mezcla la energía inagotable y envolvente del Generador puro, con la capacidad de impacto y velocidad del Manifestador. Eres un creador nato, multifacético y diseñado para la eficiencia.</p>
+            
+            <ul>
+                <li><strong>Multitasking Natural:</strong> A diferencia de otros tipos, tú estás diseñado para saltar de una cosa a otra. No tienes que acabar A para empezar B. Puedes llevar varios proyectos (como tu música, videoclips, y otros negocios) en paralelo. Es tu forma natural de evitar el aburrimiento.</li>
+                <li><strong>El salto de pasos:</strong> Tienes la capacidad única de ir del paso 1 al paso 4 saltándote el 2 y el 3. Eres extremadamente eficiente. Si al llegar al 4 te das cuenta de que te faltó algo, no pasa nada, retrocedes, lo haces súper rápido y vuelves a avanzar. No dejes que nadie te diga que tienes que ir "paso a paso".</li>
+                <li><strong>La Respuesta Sacral:</strong> A pesar de tener energía para iniciar (Manifestador), tu verdadero poder se desbloquea <em>solo cuando respondes</em> (Generador). Tu estrategia es "Esperar para Responder". No inicies proyectos desde tu mente lógica. Espera a que la vida te pregunte, te ofrezca un sonido, una idea externa, y siente si tus entrañas (tu centro sacral) se encienden con un "SÍ" rotundo.</li>
+                <li><strong>La Firma y el No-Ser:</strong> Cuando estás operando correctamente (haciendo lo que amas), experimentarás profunda <strong>Satisfacción</strong> y dormirás agotado pero feliz. Si te fuerzas a iniciar cosas mentalmente o haces favores por compromiso, chocarás contra la <strong>Frustración</strong> y la ira, bloqueando tu energía vital.</li>
+            </ul>
+            <p><strong>Integración en la Música:</strong> Deja que tus contactos (Perfil 4) traigan las oportunidades. Investiga tus sonidos (Perfil 1). Si sientes el SÍ sacral, pon toda esa energía inagotable para grabar, producir y lanzar, sabiendo que tu música tiene el propósito de <em>provocar</em> una reacción profunda (Cruz de la Provocación) en quien la escucha.</p>
+        </section>
+
+        <section class="gm-details" style="margin-top: 2rem; border-left-color: var(--accent-orange); background: linear-gradient(145deg, #1e1e1e 0%, #1a1210 100%);">
+            <h2 style="color: var(--accent-orange);">🎯 Episodio 7: Entorno, Digestión y Sentido</h2>
+            <p style="font-size: 1.15rem; color: #fff;">Y llegamos al último episodio con algunos de los elementos más <strong>ESPECTACULARES, REVELADORES, PRÁCTICOS y FACILÍSIMOS DE APLICAR</strong> en tu vida desde, literalmente, HOY MISMO.</p>
+            
+            <p style="font-size: 1.25rem; font-weight: 700; color: var(--accent-orange); margin: 1.5rem 0; letter-spacing: 1px;">EL ENTORNO, LA DIGESTIÓN Y EL SENTIDO: tus Variables.</p>
+            
+            <ul style="list-style-type: none; margin-left: 0;">
+                <li style="margin-bottom: 1.5rem; padding-left: 1.5rem; border-left: 2px solid var(--accent-orange);"><strong>🍎 DIGESTIÓN (Apetito Consecutivo):</strong> Tu sistema digestivo es primitivo y sencillo. No estás diseñado para comidas muy mezcladas, guisos complejos o mil sabores a la vez. Estás diseñado para comer de forma <strong>consecutiva</strong>: un ingrediente a la vez. Primero te comes la proteína, luego el carbohidrato, luego el vegetal. No lo mezcles todo en el mismo bocado. Tu cuerpo extrae los nutrientes (y procesa la información) mucho mejor cuando las cosas son simples y van de una en una.</li>
+                <li style="margin-bottom: 1.5rem; padding-left: 1.5rem; border-left: 2px solid var(--accent-orange);"><strong>⛰️ ENTORNO (Montañas):</strong> Tu cuerpo físico necesita <strong>perspectiva y altura</strong>. No estás hecho para vivir en sótanos o lugares muy encerrados sin vistas. Para que tu aura esté sana, tu creatividad fluya (para hacer música) y te sientas seguro, necesitas estar en un lugar elevado (un piso alto, un balcón despejado, una casa en una colina). Necesitas poder observar el panorama completo desde arriba antes de "bajar al ruedo" a interactuar. Ese es tu lugar de poder.</li>
+                <li style="margin-bottom: 1.5rem; padding-left: 1.5rem; border-left: 2px solid var(--accent-orange);"><strong>👁️ SENTIDO (Visión Externa):</strong> Tu intuición te habla a través de los ojos. Eres una persona profundamente visual. Si algo o alguien "no se ve bien" para ti estéticamente, no te fíes. Absorbes la información del mundo observando los detalles superficiales externos. Cuando necesites respuestas, mira a tu alrededor, tu cuerpo reconocerá visualmente qué camino o persona es la correcta. (¡Un talento clave para la estética visual de un artista!).</li>
+            </ul>
+
+            <p style="margin-top: 1.5rem; font-size: 1.05rem;">Estas tres piezas del puzzle te ayudarán a optimizar tu energía física al máximo, sanar más rápido si enfermas y mantener tu mente clara como el agua.</p>
+            
+            <div style="background: rgba(224, 139, 70, 0.1); border: 1px solid rgba(224, 139, 70, 0.3); padding: 1.5rem; border-radius: 8px; margin-top: 1.5rem;">
+                <p style="margin-bottom: 0; font-size: 0.95rem; color: #f8f8f2;">⚠️ <strong>IMPORTANTE:</strong> Ten en cuenta que tu hora de nacimiento debe ser SÚPER precisa para poder confiar en esta información. ¡Un cambio de pocos minutos puede dar un resultado que no tiene nada que ver contigo! Revisa tu hora con mucho detalle, POR FAVOR 🙏🏻</p>
+            </div>
+        </section>
+
+        <section class="gm-details" style="margin-top: 2rem; border-left-color: #c586f3; background: linear-gradient(145deg, #1e1e1e 0%, #150d1a 100%);">
+            <h2 style="color: #c586f3;">👁️‍🗨️ Decodificando tu Carta: El Idioma del Diseño Humano</h2>
+            <p>Esa imagen llena de números, colores y símbolos planetarios parece un idioma alienígena, ¿verdad? En realidad, el Diseño Humano es una <strong>síntesis de 4 ciencias antiguas</strong> (Astrología, I Ching, Chakras y la Cábala) combinadas con la física cuántica.</p>
+            
+            <p style="font-size: 1.15rem; font-weight: 700; color: #c586f3; margin: 1.5rem 0 0.5rem;">1. Las dos columnas: Diseño (Rojo) vs. Personalidad (Negro)</p>
+            <ul>
+                <li><strong>Columna Negra (Personalidad):</strong> Es tu parte consciente. Se calcula el día exacto en que naciste. Son rasgos que tú reconoces en ti mismo (lo que piensas y sabes de ti).</li>
+                <li><strong>Columna Roja (Diseño):</strong> Es tu parte inconsciente y tu herencia genética. Se calcula aproximadamente 88 días antes de tu nacimiento. Son rasgos que los demás ven en ti, pero que tú a veces haces sin darte cuenta ("el cuerpo manda").</li>
+            </ul>
+
+            <p style="font-size: 1.15rem; font-weight: 700; color: #c586f3; margin: 1.5rem 0 0.5rem;">2. Los Símbolos (Astrología)</p>
+            <p style="margin-bottom: 1rem;">Los símbolos a los lados de los números son los planetas en el momento de tu cálculo. El ☀️ (Sol) define tu identidad, la 🌍 (Tierra) lo que te da anclaje, la 🌙 (Luna) tus emociones instintivas, etc.</p>
+
+            <p style="font-size: 1.15rem; font-weight: 700; color: #c586f3; margin: 1.5rem 0 0.5rem;">3. Los Números (El I Ching de China)</p>
+            <p style="margin-bottom: 0.5rem;">¿Qué significa un número como <strong>51.1</strong> o <strong>39.4</strong>?</p>
+            <ul>
+                <li><strong>El número entero (ej. 51 o 39):</strong> Representa una de las <strong>64 Puertas</strong> del sistema (basadas en los 64 hexagramas del I Ching). Cada puerta es un talento, un miedo o una característica concreta de tu energía. Si ves el número 51, significa que tienes activada la puerta 51 (la Puerta del Choque/Iniciativa).</li>
+                <li><strong>El número decimal (.1, .4, .6):</strong> Es la <strong>Línea</strong> del hexagrama. Cada puerta tiene 6 niveles o formas de expresarse. Por ejemplo, el <strong>.1</strong> es el Investigador (necesita bases sólidas) y el <strong>.4</strong> es el Oportunista (actúa por red de contactos).</li>
+            </ul>
+
+            <p style="font-size: 1.15rem; font-weight: 700; color: #c586f3; margin: 1.5rem 0 0.5rem;">4. El Cuerpo y los Canales (Chakras y Cábala)</p>
+            <p>Los triángulos y cuadrados del centro representan los <strong>centros energéticos</strong> (Chakras adaptados). Si están coloreados, emiten energía de forma constante. Las <strong>líneas gruesas (rojas, negras o a rayas)</strong> que los conectan se llaman "Canales" (Inspirados en el Árbol de la Vida de la Cábala). Un canal coloreado significa que dos de tus "Puertas" se han conectado, dándote un superpoder permanente.</p>
+        </section>
+
+        <section class="gm-details" style="margin-top: 2rem; border-left-color: #66fcf1; background: linear-gradient(145deg, #1e1e1e 0%, #0d1a1a 100%);">
+            <h2 style="color: #66fcf1;">🧬 Informe de Activaciones Clave (Tus Puertas Principales)</h2>
+            <p>De todos los números (Puertas) que tienes en tu gráfico, los más importantes son los que están alineados con el <strong>Sol ☀️ y la Tierra 🌍</strong>. Estos cuatro puntos forman el 70% de tu personalidad y conforman tu propósito de vida (Tu Cruz de la Encarnación de la Provocación).</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                <!-- Sol Consciente -->
+                <div style="background: rgba(0,0,0,0.3); padding: 1.5rem; border-radius: 12px; border-top: 3px solid #fcd53f;">
+                    <h3 style="color: #fcd53f; font-family: 'Outfit', sans-serif;">☀️ Sol Consciente: 39.4</h3>
+                    <p style="color: #a0a0a0; font-size: 0.9rem; margin-bottom: 0.5rem;"><em>La Puerta del Provocador (Personalidad)</em></p>
+                    <p style="font-size: 0.95rem; color: #ddd;">Es la energía de saber exactamente qué tecla tocar para provocar una reacción en los demás. Usada correctamente (a través de tu música), despiertas a las personas. Al ser línea 4, tu red de amigos y contactos es quien más recibe esta provocación mutacional.</p>
+                </div>
+                
+                <!-- Tierra Consciente -->
+                <div style="background: rgba(0,0,0,0.3); padding: 1.5rem; border-radius: 12px; border-top: 3px solid #e08b46;">
+                    <h3 style="color: #e08b46; font-family: 'Outfit', sans-serif;">🌍 Tierra Consciente: 38.4</h3>
+                    <p style="color: #a0a0a0; font-size: 0.9rem; margin-bottom: 0.5rem;"><em>La Puerta del Luchador (Anclaje)</em></p>
+                    <p style="font-size: 0.95rem; color: #ddd;">Te da la perseverancia para luchar por lo que crees que tiene valor. Tu estabilidad en la vida viene de encontrar batallas que valgan la pena luchar, especialmente para defender o inspirar a tu tribu (línea 4).</p>
+                </div>
+
+                <!-- Sol Inconsciente -->
+                <div style="background: rgba(0,0,0,0.3); padding: 1.5rem; border-radius: 12px; border-top: 3px solid #ff6b6b;">
+                    <h3 style="color: #ff6b6b; font-family: 'Outfit', sans-serif;">☀️ Sol Inconsciente: 51.1</h3>
+                    <p style="color: #a0a0a0; font-size: 0.9rem; margin-bottom: 0.5rem;"><em>La Puerta del Choque (Diseño Corporal)</em></p>
+                    <p style="font-size: 0.95rem; color: #ddd;">Una energía competitiva e iniciadora que llevas en la sangre. Tienes la capacidad innata de impactar y sorprender a los demás empujándolos fuera de su zona de confort. Al ser línea 1, necesitas fundamentos sólidos para dar ese "salto".</p>
+                </div>
+
+                <!-- Tierra Inconsciente -->
+                <div style="background: rgba(0,0,0,0.3); padding: 1.5rem; border-radius: 12px; border-top: 3px solid #8e44ad;">
+                    <h3 style="color: #8e44ad; font-family: 'Outfit', sans-serif;">🌍 Tierra Inconsciente: 57.1</h3>
+                    <p style="color: #a0a0a0; font-size: 0.9rem; margin-bottom: 0.5rem;"><em>La Puerta de lo Suave / Intuición (Anclaje Corporal)</em></p>
+                    <p style="font-size: 0.95rem; color: #ddd;">Una intuición acústica extraordinaria. Tu cuerpo (tu oído) capta peligros, falsedades y verdades en el tono de voz de los demás al instante. Es un don brutal para la música y el sonido, pero que opera de forma instintiva e inconsciente.</p>
+                </div>
+            </div>
+            
+            <p style="margin-top: 2rem; font-size: 1.1rem; color: #fff; background: rgba(102, 252, 241, 0.1); padding: 1.5rem; border-radius: 8px; border: 1px solid rgba(102, 252, 241, 0.3);"><strong>🎵 En resumen para el Proyecto Musical:</strong> Tu propósito de vida usa tu intuición acústica (57) para crear arte sonoro y luchar por lo que amas (38), empujando a los demás a despertar mediante una sacudida (51) o una provocación emocional pura (39). Todo esto fluirá a la perfección a través de tu círculo (línea 4) siempre que domines a fondo tus herramientas de producción (línea 1).</p>
+        </section>
+    </div>
+</body>
+</html>
