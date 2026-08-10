@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Assets y carpetas privadas de producción (ignoradas)
+Eddy Castaño/
+canciones_antiguas/
+*.mp3
+*.mp4
+*.MP4
+*.mpeg
+*.xspf
