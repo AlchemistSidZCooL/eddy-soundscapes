@@ -202,7 +202,7 @@ function App() {
                   <h2 className="section-title">Conecta</h2>
                   <div className="cta-buttons">
                       <a href="https://wa.me/34625871008?text=Hola%20Eddy,%20vengo%20de%20tu%20web%20y%20me%20interesa%20contactarte%20para..." target="_blank" rel="noreferrer" className="btn btn-primary">Contratación (WhatsApp)</a>
-                      <a href="#" className="btn btn-secondary" onClick={(e) => { e.preventDefault(); alert('¡Próximamente! Aquí enlazaremos la cuenta de PayPal, Stripe o Bizum.'); }}>Apoyo</a>
+                      <a href="https://paypal.me/eddycamusic" target="_blank" rel="noreferrer" className="btn btn-secondary">Apoyo</a>
                   </div>
               </div>
           </section>
