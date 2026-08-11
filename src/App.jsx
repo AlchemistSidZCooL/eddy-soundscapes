@@ -215,10 +215,19 @@ function App() {
 
       <footer className="footer">
           <div className="container">
-              <p>&copy; {new Date().getFullYear()} Eddy Castaño. Todos los derechos reservados.</p>
-              <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.5rem' }}>
-                  Diseñado y Desarrollado por <a href="https://danisid.com" target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none', fontWeight: 'bold' }}>danisid.com</a> | Maison Quintessence
-              </p>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>&copy; {new Date().getFullYear()} Eddy Castaño. Todos los derechos reservados.</p>
+              
+              <div style={{ marginTop: '2.5rem', padding: '1.5rem', background: 'rgba(229, 142, 38, 0.05)', border: '1px solid rgba(229, 142, 38, 0.2)', borderRadius: '12px', display: 'inline-block', maxWidth: '100%' }}>
+                  <p style={{ fontSize: '1rem', color: 'var(--text-primary)', margin: 0, letterSpacing: '0.05em' }}>
+                      ⚡ Diseñado y Desarrollado por
+                  </p>
+                  <a href="https://danisid.com" target="_blank" rel="noreferrer" style={{ color: 'var(--bg-color)', background: 'var(--accent)', padding: '0.5rem 1.5rem', borderRadius: '50px', textDecoration: 'none', fontWeight: 'bold', display: 'inline-block', marginTop: '1rem', textTransform: 'uppercase', letterSpacing: '0.15em', fontSize: '0.9rem', boxShadow: '0 4px 15px rgba(229, 142, 38, 0.3)' }}>
+                      danisid.com
+                  </a>
+                  <p style={{ fontSize: '0.9rem', color: 'var(--accent)', marginTop: '0.8rem', fontFamily: 'var(--font-serif)', fontStyle: 'italic' }}>
+                      Maison Quintessence
+                  </p>
+              </div>
           </div>
       </footer>
     </>
