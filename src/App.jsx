@@ -69,11 +69,11 @@ function App() {
           <div className="logo" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--accent)' }}>E.C</div>
           
           <div className="media-controls" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-            <button onClick={togglePlay} style={{ background: 'transparent', border: '1px solid rgba(255,255,255,0.2)', color: 'var(--text-primary)', padding: '0.4rem 1rem', borderRadius: '50px', cursor: 'pointer', fontFamily: 'var(--font-sans)', fontSize: '0.8rem', textTransform: 'uppercase', transition: 'all 0.3s ease' }}>
-              {playing ? '⏸ Pausar' : '▶ Play'}
+            <button onClick={togglePlay} style={{ background: 'transparent', border: '1px solid rgba(255,255,255,0.2)', color: 'var(--text-secondary)', padding: '0.4rem 1rem', borderRadius: '50px', cursor: 'pointer', fontFamily: 'var(--font-sans)', fontSize: '0.8rem', textTransform: 'uppercase', transition: 'all 0.3s ease', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+              {playing ? <><span>⏸</span> Pausar</> : <><span>▶</span> Play</>}
             </button>
-            <button onClick={toggleMute} style={{ background: muted ? 'transparent' : 'var(--accent)', border: '1px solid var(--accent)', color: muted ? 'var(--accent)' : 'var(--bg-color)', padding: '0.4rem 1rem', borderRadius: '50px', cursor: 'pointer', fontFamily: 'var(--font-sans)', fontSize: '0.8rem', textTransform: 'uppercase', fontWeight: muted ? 'normal' : 'bold', transition: 'all 0.3s ease' }}>
-              {muted ? '🔈 Sonido OFF' : '🔊 Sonido ON'}
+            <button onClick={toggleMute} style={{ background: 'transparent', border: '1px solid rgba(255,255,255,0.2)', color: 'var(--text-secondary)', padding: '0.4rem 1rem', borderRadius: '50px', cursor: 'pointer', fontFamily: 'var(--font-sans)', fontSize: '0.8rem', textTransform: 'uppercase', transition: 'all 0.3s ease', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+              {muted ? <><span>🔈</span> Sonido OFF</> : <><span>🔊</span> Sonido ON</>}
             </button>
           </div>
 
@@ -83,7 +83,7 @@ function App() {
       <header className="hero">
           <div className="hero-content">
               <h1 className="reveal-text">EDDY <br/> CASTAÑO</h1>
-              <p className="subtitle fade-in" style={{ letterSpacing: '0.15em', textTransform: 'uppercase', fontSize: '0.9rem', color: 'var(--accent)' }}>Cantautor | Compositor | Live Performer</p>
+              <p className="subtitle fade-in" style={{ letterSpacing: '0.15em', textTransform: 'uppercase', fontSize: '0.9rem', color: 'var(--accent)', textAlign: 'center' }}>Cantautor | Compositor | Live Performer</p>
               <div className="social-links fade-in" style={{ marginTop: '1rem', gap: '1.5rem', display: 'flex', justifyContent: 'center', flexWrap: 'wrap', alignItems: 'center' }}>
                   <a href="https://www.youtube.com/watch?v=V2aTjthmw7M" target="_blank" rel="noreferrer" className="btn btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem', background: '#ff0000', color: 'white', border: 'none', boxShadow: '0 0 15px rgba(255,0,0,0.5)', textTransform: 'uppercase', fontWeight: 'bold' }}>▶ VER NUEVO VIDEOCLIP</a>
                   <a href="https://www.instagram.com/eddycamusic/" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontFamily: 'var(--font-sans)', letterSpacing: '0.1em', fontSize: '0.9rem' }}>Instagram</a>

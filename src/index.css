@@ -94,7 +94,10 @@ body {
 
 @media (max-width: 768px) {
     .navbar {
-        padding: 1rem 1.5rem;
+        padding: 1rem 0.5rem;
+    }
+    .navbar .logo {
+        display: none;
     }
 }
 
@@ -108,6 +111,14 @@ body {
     position: relative;
     text-align: center;
     background: radial-gradient(circle at center, rgba(30,30,30,0.5) 0%, var(--bg-color) 70%);
+}
+
+.hero-content {
+    width: 100%;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-content h1 {
