@@ -68,7 +68,7 @@ function App() {
       <nav className="navbar fade-in">
           <div className="logo" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--accent)' }}>E.C</div>
           
-          <div className="media-controls" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+          <div className="media-controls" style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
             <button onClick={togglePlay} style={{ background: 'transparent', border: '1px solid rgba(255,255,255,0.2)', color: 'var(--text-secondary)', padding: '0.4rem 1rem', borderRadius: '50px', cursor: 'pointer', fontFamily: 'var(--font-sans)', fontSize: '0.8rem', textTransform: 'uppercase', transition: 'all 0.3s ease', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
               {playing ? <><span>⏸</span> Pausar</> : <><span>▶</span> Play</>}
             </button>
@@ -196,7 +196,7 @@ function App() {
                   <h2 className="section-title">Conecta</h2>
                   <div className="cta-buttons">
                       <a href="https://wa.me/34625871008?text=Hola%20Eddy,%20vengo%20de%20tu%20web%20y%20me%20interesa%20contactarte%20para..." target="_blank" rel="noreferrer" className="btn btn-primary">Contratación (WhatsApp)</a>
-                      <a href="#" className="btn btn-secondary" onClick={(e) => { e.preventDefault(); alert('¡Próximamente! Aquí enlazaremos la cuenta de PayPal, Stripe o Bizum.'); }}>La Gorra Digital (Apoyo)</a>
+                      <a href="#" className="btn btn-secondary" onClick={(e) => { e.preventDefault(); alert('¡Próximamente! Aquí enlazaremos la cuenta de PayPal, Stripe o Bizum.'); }}>Apoyo</a>
                   </div>
               </div>
           </section>

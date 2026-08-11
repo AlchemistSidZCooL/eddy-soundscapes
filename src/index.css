@@ -95,6 +95,8 @@ body {
 @media (max-width: 768px) {
     .navbar {
         padding: 1rem 0.5rem;
+        justify-content: center;
+        gap: 0.5rem;
     }
     .navbar .logo {
         display: none;
