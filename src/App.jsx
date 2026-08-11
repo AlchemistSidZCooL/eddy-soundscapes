@@ -69,11 +69,11 @@ function App() {
           <div className="logo" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--accent)' }}>E.C</div>
           
           <div className="media-controls" style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
-            <button onClick={togglePlay} style={{ background: 'transparent', border: '1px solid rgba(255,255,255,0.2)', color: 'var(--text-secondary)', padding: '0.4rem 1rem', borderRadius: '50px', cursor: 'pointer', fontFamily: 'var(--font-sans)', fontSize: '0.8rem', textTransform: 'uppercase', transition: 'all 0.3s ease', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              {playing ? <><span>⏸</span> Pausar</> : <><span>▶</span> Play</>}
+            <button onClick={togglePlay} aria-label={playing ? 'Pausar' : 'Play'} style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: 'var(--text-secondary)', width: '40px', height: '40px', borderRadius: '50%', cursor: 'pointer', fontSize: '1.2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.3s ease' }}>
+              {playing ? '⏸' : '▶'}
             </button>
-            <button onClick={toggleMute} style={{ background: 'transparent', border: '1px solid rgba(255,255,255,0.2)', color: 'var(--text-secondary)', padding: '0.4rem 1rem', borderRadius: '50px', cursor: 'pointer', fontFamily: 'var(--font-sans)', fontSize: '0.8rem', textTransform: 'uppercase', transition: 'all 0.3s ease', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              {muted ? <><span>🔈</span> Sonido OFF</> : <><span>🔊</span> Sonido ON</>}
+            <button onClick={toggleMute} aria-label={muted ? 'Activar Sonido' : 'Mutear'} style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: 'var(--text-secondary)', width: '40px', height: '40px', borderRadius: '50%', cursor: 'pointer', fontSize: '1.2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.3s ease' }}>
+              {muted ? '🔈' : '🔊'}
             </button>
           </div>
 
