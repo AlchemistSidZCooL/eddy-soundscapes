@@ -215,21 +215,27 @@ function App() {
           </section>
       </main>
 
-      <footer className="footer">
-          <div className="container">
-              <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>&copy; {new Date().getFullYear()} Eddy Castaño. Todos los derechos reservados.</p>
-              
-              <div style={{ marginTop: '2.5rem', padding: '1.5rem', background: 'rgba(229, 142, 38, 0.05)', border: '1px solid rgba(229, 142, 38, 0.2)', borderRadius: '12px', display: 'inline-block', maxWidth: '100%' }}>
-                  <p style={{ fontSize: '1rem', color: 'var(--text-primary)', margin: 0, letterSpacing: '0.05em' }}>
-                      ⚡ Diseñado y Desarrollado por
+      <footer className="footer" style={{ padding: '0', borderTop: 'none' }}>
+          {/* Banner de Captación de Clientes para el Desarrollador */}
+          <div style={{ background: 'linear-gradient(135deg, rgba(229,142,38,0.15) 0%, rgba(138,43,226,0.15) 100%)', padding: '4rem 1rem', textAlign: 'center', borderTop: '2px solid rgba(229,142,38,0.4)' }}>
+              <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
+                  <h2 style={{ fontSize: '2.2rem', fontFamily: 'var(--font-serif)', color: 'var(--text-primary)', marginBottom: '1rem', lineHeight: '1.2' }}>
+                      ¿Quieres una web de <span style={{ color: 'var(--accent)' }}>Alto Impacto</span> para tu proyecto?
+                  </h2>
+                  <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)', marginBottom: '2.5rem' }}>
+                      Arquitectura digital premium para artistas y negocios exclusivos. Destaca frente a tu competencia.
                   </p>
-                  <a href="https://danisid.com" target="_blank" rel="noreferrer" style={{ color: 'var(--bg-color)', background: 'var(--accent)', padding: '0.5rem 1.5rem', borderRadius: '50px', textDecoration: 'none', fontWeight: 'bold', display: 'inline-block', marginTop: '1rem', textTransform: 'uppercase', letterSpacing: '0.15em', fontSize: '0.9rem', boxShadow: '0 4px 15px rgba(229, 142, 38, 0.3)' }}>
-                      danisid.com
+                  <a href="https://danisid.com" target="_blank" rel="noreferrer" style={{ display: 'inline-block', background: 'var(--accent)', color: 'var(--bg-color)', padding: '1.2rem 3rem', borderRadius: '50px', fontSize: '1.2rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '0.15em', textDecoration: 'none', boxShadow: '0 10px 40px rgba(229, 142, 38, 0.5)' }}>
+                      ⚡ Contratar Desarrollo Web
                   </a>
-                  <p style={{ fontSize: '0.9rem', color: 'var(--accent)', marginTop: '0.8rem', fontFamily: 'var(--font-serif)', fontStyle: 'italic' }}>
-                      Maison Quintessence
+                  <p style={{ fontSize: '1rem', color: 'var(--accent)', marginTop: '2rem', fontFamily: 'var(--font-serif)', fontStyle: 'italic', opacity: 0.9 }}>
+                      Diseñado por <strong>danisid.com</strong> | Maison Quintessence
                   </p>
               </div>
+          </div>
+          
+          <div style={{ background: 'var(--bg-color)', padding: '1.5rem', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', margin: 0 }}>&copy; {new Date().getFullYear()} Eddy Castaño. Todos los derechos reservados.</p>
           </div>
       </footer>
     </>
