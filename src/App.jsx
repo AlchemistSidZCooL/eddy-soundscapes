@@ -203,7 +203,7 @@ function App() {
               <div className="container">
                   <h2 className="section-title">Conecta</h2>
                   <div className="cta-buttons" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
-                      <a href="https://wa.me/34625871008?text=Hola%20Eddy,%20vengo%20de%20tu%20web%20y%20me%20interesa%20contactarte%20para..." target="_blank" rel="noreferrer" className="btn btn-primary">Contratación (WhatsApp)</a>
+                      <a href="https://wa.me/34625871008?text=Hola%20Eddy,%20vengo%20de%20tu%20web%20y%20me%20interesa%20contactarte%20para..." target="_blank" rel="noreferrer" className="btn btn-primary">Contratación</a>
                       <a href="https://paypal.me/eddycamusic" target="_blank" rel="noreferrer" className="btn btn-secondary">PayPal</a>
                       <a href="#" className="btn btn-secondary" onClick={(e) => {
                           e.preventDefault();
@@ -212,35 +212,38 @@ function App() {
                       }}>DolarApp</a>
                       <a href="#" className="btn btn-secondary" onClick={(e) => {
                           e.preventDefault();
-                          navigator.clipboard.writeText('ESXX XXXX XXXX XXXX XXXX XXXX'); // Placeholder
-                          alert('¡IBAN copiado al portapapeles! (NOTA: Falta que Daniel me pase el número real)');
-                      }}>Transferencia (IBAN)</a>
+                          navigator.clipboard.writeText('LU084080000029624948');
+                          alert('¡IBAN copiado al portapapeles!\n\nPara hacer la transferencia ingresa estos datos:\nBeneficiario: Bridge Building Sp. Z.o.o.\nIBAN: LU08 4080 0000 2962 4948');
+                      }}>Transferencia</a>
+                      <a href="mailto:eddycamusic1@gmail.com" target="_blank" rel="noreferrer" className="btn btn-secondary">Email</a>
                   </div>
               </div>
           </section>
       </main>
 
-      <footer className="footer" style={{ padding: '0', borderTop: 'none' }}>
-          {/* Banner de Captación de Clientes para el Desarrollador */}
-          <div style={{ background: 'linear-gradient(135deg, rgba(229,142,38,0.15) 0%, rgba(138,43,226,0.15) 100%)', padding: '4rem 1rem', textAlign: 'center', borderTop: '2px solid rgba(229,142,38,0.4)' }}>
-              <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
-                  <h2 style={{ fontSize: '2.2rem', fontFamily: 'var(--font-serif)', color: 'var(--text-primary)', marginBottom: '1rem', lineHeight: '1.2' }}>
-                      ¿Quieres una web de <span style={{ color: 'var(--accent)' }}>Alto Impacto</span> para tu proyecto?
-                  </h2>
-                  <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)', marginBottom: '2.5rem' }}>
-                      Arquitectura digital premium para artistas y negocios exclusivos. Destaca frente a tu competencia.
+      <footer className="footer" style={{ padding: '4rem 0 3rem 0', textAlign: 'center', position: 'relative', zIndex: 1 }}>
+          <div className="container">
+              <div style={{ marginBottom: '2rem' }}>
+                  <p style={{ fontSize: '1.2rem', fontFamily: 'var(--font-sans)', fontStyle: 'normal', fontWeight: 300, color: 'var(--text-secondary)', letterSpacing: '0.05em', marginBottom: '0.5rem' }}>
+                      Diseñado por <a href="https://danisid.com" target="_blank" rel="noreferrer" className="neon-text-link">danisid.com</a> <span style={{ opacity: 0.5, margin: '0 0.5rem' }}>|</span> <a href="https://maison-quintessence.netlify.app/" target="_blank" rel="noreferrer" className="neon-text-link">Maison Quintessence</a>
                   </p>
-                  <a href="https://danisid.com" target="_blank" rel="noreferrer" className="neon-button" style={{ display: 'inline-block', background: 'var(--accent)', color: 'var(--bg-color)', padding: '1.2rem 3rem', borderRadius: '50px', fontSize: '1.2rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '0.15em', textDecoration: 'none', boxShadow: '0 10px 40px rgba(229, 142, 38, 0.5)' }}>
-                      ⚡ Contratar Desarrollo Web
-                  </a>
-                  <p style={{ fontSize: '1.3rem', marginTop: '2.5rem', fontFamily: 'var(--font-serif)', fontStyle: 'italic', color: 'var(--text-secondary)' }}>
-                      Diseñado por <a href="https://danisid.com" target="_blank" rel="noreferrer" className="neon-text-link">danisid.com</a> | <a href="https://maison-quintessence.netlify.app/" target="_blank" rel="noreferrer" className="neon-text-link">Maison Quintessence</a>
-                  </p>
+                  <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                      <a href="https://wa.me/34641868620?text=Hola,%20vengo%20de%20ver%20el%20portafolio%20de%20Eddy%20Castaño%20y%20me%20gustaría%20cotizar%20un%20proyecto%20web." target="_blank" rel="noreferrer" className="neon-text-link" style={{ display: 'inline-flex', alignItems: 'center', marginTop: '0.5rem', padding: '0.4rem 1.2rem', border: '1px solid rgba(229, 142, 38, 0.4)', borderRadius: '50px', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.15em', fontFamily: 'var(--font-sans)', color: 'var(--accent)' }}>
+                          <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: '8px' }}>
+                              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                          </svg>
+                          WhatsApp
+                      </a>
+                      <a href="mailto:garciadanielsid@gmail.com?subject=Cotización%20Proyecto%20Web" target="_blank" rel="noreferrer" className="neon-text-link" style={{ display: 'inline-flex', alignItems: 'center', marginTop: '0.5rem', padding: '0.4rem 1.2rem', border: '1px solid rgba(229, 142, 38, 0.4)', borderRadius: '50px', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.15em', fontFamily: 'var(--font-sans)', color: 'var(--accent)' }}>
+                          <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: '8px' }}>
+                              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                              <polyline points="22,6 12,13 2,6"></polyline>
+                          </svg>
+                          Email
+                      </a>
+                  </div>
               </div>
-          </div>
-          
-          <div style={{ background: 'var(--bg-color)', padding: '1.5rem', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', margin: 0 }}>&copy; {new Date().getFullYear()} Eddy Castaño. Todos los derechos reservados.</p>
+              <p style={{ fontSize: '0.8rem', color: 'rgba(166, 159, 176, 0.4)', margin: 0, textTransform: 'uppercase', letterSpacing: '0.1em' }}>&copy; {new Date().getFullYear()} Eddy Castaño</p>
           </div>
       </footer>
     </>

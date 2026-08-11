@@ -258,14 +258,18 @@ section {
     opacity: 1;
 }
 
-/* --- Neon Hover Effects para Banner de Captación --- */
-.neon-button {
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+/* --- Luxury Credits --- */
+.luxury-credit {
+    cursor: pointer;
 }
-.neon-button:hover {
-    box-shadow: 0 0 15px var(--accent), 0 0 30px var(--accent), 0 0 50px var(--accent) !important;
-    transform: translateY(-4px);
-    background-color: #ff9f43 !important; /* Ligeramente más brillante en hover */
+.luxury-credit:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 4px 20px rgba(138, 43, 226, 0.1);
+}
+
+.mq-link:hover {
+    color: var(--accent) !important;
 }
 
 .neon-text-link {
@@ -321,6 +325,12 @@ section {
 .btn-secondary:hover {
     background-color: rgba(255, 255, 255, 0.08);
     border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Layout Structure (Fix for z-index overlapping) */
+main, footer {
+    position: relative;
+    z-index: 1;
 }
 
 /* Footer */
