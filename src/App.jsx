@@ -225,11 +225,11 @@ function App() {
                   <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)', marginBottom: '2.5rem' }}>
                       Arquitectura digital premium para artistas y negocios exclusivos. Destaca frente a tu competencia.
                   </p>
-                  <a href="https://danisid.com" target="_blank" rel="noreferrer" style={{ display: 'inline-block', background: 'var(--accent)', color: 'var(--bg-color)', padding: '1.2rem 3rem', borderRadius: '50px', fontSize: '1.2rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '0.15em', textDecoration: 'none', boxShadow: '0 10px 40px rgba(229, 142, 38, 0.5)' }}>
+                  <a href="https://danisid.com" target="_blank" rel="noreferrer" className="neon-button" style={{ display: 'inline-block', background: 'var(--accent)', color: 'var(--bg-color)', padding: '1.2rem 3rem', borderRadius: '50px', fontSize: '1.2rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '0.15em', textDecoration: 'none', boxShadow: '0 10px 40px rgba(229, 142, 38, 0.5)' }}>
                       ⚡ Contratar Desarrollo Web
                   </a>
-                  <p style={{ fontSize: '1rem', color: 'var(--accent)', marginTop: '2rem', fontFamily: 'var(--font-serif)', fontStyle: 'italic', opacity: 0.9 }}>
-                      Diseñado por <strong>danisid.com</strong> | Maison Quintessence
+                  <p style={{ fontSize: '1.3rem', marginTop: '2.5rem', fontFamily: 'var(--font-serif)', fontStyle: 'italic', color: 'var(--text-secondary)' }}>
+                      Diseñado por <a href="https://danisid.com" target="_blank" rel="noreferrer" className="neon-text-link">danisid.com</a> | <a href="https://maison-quintessence.netlify.app/" target="_blank" rel="noreferrer" className="neon-text-link">Maison Quintessence</a>
                   </p>
               </div>
           </div>

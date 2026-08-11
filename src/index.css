@@ -258,6 +258,30 @@ section {
     opacity: 1;
 }
 
+/* --- Neon Hover Effects para Banner de Captación --- */
+.neon-button {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.neon-button:hover {
+    box-shadow: 0 0 15px var(--accent), 0 0 30px var(--accent), 0 0 50px var(--accent) !important;
+    transform: translateY(-4px);
+    background-color: #ff9f43 !important; /* Ligeramente más brillante en hover */
+}
+
+.neon-text-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+.neon-text-link:hover {
+    text-shadow: 0 0 10px var(--accent), 0 0 20px var(--accent);
+    color: #ffffff;
+    background: rgba(229, 142, 38, 0.1);
+}
+
 /* Actions */
 .cta-buttons {
     display: flex;
