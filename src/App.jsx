@@ -32,10 +32,12 @@ function App() {
           events: {
             onReady: (event) => {
               event.target.playVideo();
-              try {
-                event.target.unloadModule("captions");
-                event.target.unloadModule("cc");
-              } catch (err) {}
+              setTimeout(() => {
+                try {
+                  event.target.unloadModule("captions");
+                  event.target.unloadModule("cc");
+                } catch (err) {}
+              }, 1000);
             }
           }
         });
@@ -131,7 +133,7 @@ function App() {
                               Último Lanzamiento <span style={{ color: 'var(--accent)' }}>| Me Tienes Mal</span>
                           </h3>
                           <div style={{ aspectRatio: '16/9', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(229, 142, 38, 0.3)', boxShadow: '0 10px 40px rgba(138, 43, 226, 0.2)' }}>
-                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AWJFq-pVeGs?autoplay=0&rel=0" title="Eddy Castaño - Me Tienes Mal" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AWJFq-pVeGs?autoplay=0&rel=0&cc_load_policy=3&iv_load_policy=3" title="Eddy Castaño - Me Tienes Mal" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                           </div>
                       </div>
 
@@ -141,7 +143,7 @@ function App() {
                               En Directo <span style={{ color: 'var(--accent)' }}>| Sesiones</span>
                           </h3>
                           <div style={{ aspectRatio: '16/9', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(229, 142, 38, 0.3)', boxShadow: '0 10px 40px rgba(138, 43, 226, 0.2)' }}>
-                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rAaXIxU1M3o?autoplay=0&rel=0" title="Eddy Castaño - Sesión en Vivo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rAaXIxU1M3o?autoplay=0&rel=0&cc_load_policy=3&iv_load_policy=3" title="Eddy Castaño - Sesión en Vivo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                           </div>
                       </div>
 
