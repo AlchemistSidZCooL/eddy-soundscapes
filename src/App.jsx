@@ -209,7 +209,7 @@ function App() {
                           e.preventDefault();
                           navigator.clipboard.writeText('$eddy22');
                           alert('¡Cashtag $eddy22 copiado al portapapeles! Abre tu DolarApp y pégalo para enviarle apoyo.');
-                      }}>DolarApp ($eddy22)</a>
+                      }}>DolarApp</a>
                       <a href="#" className="btn btn-secondary" onClick={(e) => {
                           e.preventDefault();
                           navigator.clipboard.writeText('ESXX XXXX XXXX XXXX XXXX XXXX'); // Placeholder
