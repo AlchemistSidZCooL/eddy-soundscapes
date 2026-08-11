@@ -25,11 +25,17 @@ function App() {
             rel: 0,
             modestbranding: 1,
             loop: 1,
-            playlist: 'V2aTjthmw7M'
+            playlist: 'V2aTjthmw7M',
+            cc_load_policy: 3,
+            iv_load_policy: 3
           },
           events: {
             onReady: (event) => {
               event.target.playVideo();
+              try {
+                event.target.unloadModule("captions");
+                event.target.unloadModule("cc");
+              } catch (err) {}
             }
           }
         });
