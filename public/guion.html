@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Rodaje - Trilogía Eddy Castaño</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-main: #f8fafc;
+            --accent-cyan: #06b6d4;
+            --accent-pink: #f43f5e;
+            --accent-amber: #f59e0b;
+            --card-bg: #1e293b;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .header-panel {
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.9));
+            border-left: 5px solid var(--accent-pink);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        h1, h2, h3 {
+            color: var(--accent-cyan);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 0;
+        }
+        .date-badge {
+            display: inline-block;
+            background-color: var(--accent-amber);
+            color: #000;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-right: 10px;
+            margin-bottom: 15px;
+        }
+        .song-card {
+            background-color: var(--card-bg);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .priority {
+            border: 2px solid var(--accent-pink);
+            box-shadow: 0 0 20px rgba(244, 63, 94, 0.2);
+        }
+        .priority-badge {
+            background-color: var(--accent-pink);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            font-weight: bold;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        @media (max-width: 768px) {
+            .grid-2 { grid-template-columns: 1fr; }
+        }
+        .lyrics {
+            background-color: rgba(0,0,0,0.3);
+            padding: 20px;
+            border-radius: 8px;
+            font-style: italic;
+            color: #cbd5e1;
+            white-space: pre-line;
+            border-left: 3px solid var(--accent-amber);
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .highlight { color: var(--accent-amber); font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- CABECERA -->
+        <div class="header-panel">
+            <h1>Hoja de Ruta: Rodaje Videoclips</h1>
+            <p>Documento maestro para la grabación de las 3 piezas audiovisuales.</p>
+            <div class="date-badge">📅 DOMINGO 16 (Posible)</div>
+            <div class="date-badge" style="background-color: var(--accent-cyan);">📅 MARTES 18 (Principal)</div>
+            <p style="margin-top: 15px; font-size: 0.9em; color: #94a3b8;">
+                <strong>Equipo Técnico:</strong> iPhone (Modo Cine) + Trípode de apoyo/GorillaPod.<br>
+                <strong>Estilo de Producción:</strong> Guerrilla Filmmaking urbano, uso de luz natural y neones.
+            </p>
+        </div>
+
+        <!-- CANCIÓN 1: PRIORIDAD -->
+        <div class="song-card priority">
+            <h2>1. No Queda Nada <span class="priority-badge">⚡ PRIORIDAD ABSOLUTA</span></h2>
+            <p><strong>Concepto General:</strong> P.O.V (Cámara Subjetiva) combinado con "La Estatua" (Aislamiento en medio del caos). El guion está adaptado para dirección general de actores.</p>
+            
+            <div class="grid-2">
+                <div>
+                    <h3>Letra Oficial</h3>
+                    <div class="lyrics">
+                        La vida me empuja sin preguntar
+                        Dejé mis zapatos en otro lugar
+                        Quise escapar
+                        Hablé con el viento, me dijo que no
+                        Que el tiempo me espera, que el tren ya pasó
+                        
+                        No sé dónde estarás
+                        Si en ti no queda nada, no sé dónde estarás
+                        No, no
+                        
+                        El mundo me mira, pero yo no estoy
+                        Dibujé mi sombra, y hasta ella huyó
+                        Cambié de camino, cambié de canción
+                        Pero en cada nota escucho tu voz
+                        
+                        No sé dónde estarás
+                        Si en ti no queda nada, no sé dónde estarás
+                        No, no...
+                        
+                        Fue un reflejo y no queda nada
+                        No existo, partí, amor
+                        Ya no...
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Guion Técnico y Acción (Refactorizado)</h3>
+                    
+                    <h4 style="color: #f43f5e; margin-bottom: 5px;">Bloque 1: Introspección (P.O.V)</h4>
+                    <ul>
+                        <li><span class="highlight">Cámara Subjetiva (Multitud):</span> El operador avanza rápido por Calle Preciados a contraflujo de la gente. Se simulan roces y choques para acentuar "la vida me empuja". (Grabar a 60fps para ralentizar).<br>
+                        <img src="assets/shot1_pov_crowd_1786125147495.png" alt="Guía POV Multitud" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #334155;"></li>
+                        <li><span class="highlight">Reflejo en Metro:</span> La cámara mira el reflejo del actor en el cristal mojado de un vagón. Un tren cruza veloz por el andén opuesto borrando la imagen por un instante.<br>
+                        <img src="assets/shot2_alt_reflection_1786125513374.png" alt="Guía Reflejo" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #334155;"></li>
+                        <li><span class="highlight">Cielo y Soledad:</span> Toma subjetiva mirando al atardecer en el Cerro del Tío Pío o Madrid Río. Horizonte inmenso.</li>
+                    </ul>
+
+                    <h4 style="color: #f43f5e; margin-bottom: 5px;">Bloque 2: Contraste "La Estatua"</h4>
+                    <ul>
+                        <li><span class="highlight">Estatua (Callao):</span> El actor permanece 100% inmóvil (sin pestañear, expresión muerta) en Gran Vía. <em>Vestuario clave:</em> Abrigo largo para que el viento lo mueva mientras él está congelado.<br>
+                        <img src="assets/shot3_estatua_callao_1786125176325.png" alt="Guía Estatua" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #334155;"></li>
+                        <li><span class="highlight">Detalle:</span> Manos sacando el móvil o ajustando auriculares. Fondo desenfocado.</li>
+                        <li><span class="highlight">Estatua (De Espaldas):</span> Actor inmóvil en el cruce de Gran Vía con Alcalá. Los transeúntes le esquivan como un río humano (Motion Blur en post-producción).</li>
+                    </ul>
+
+                    <h4 style="color: #f43f5e; margin-bottom: 5px;">Bloque 3: Explosión Pop / Neones</h4>
+                    <ul>
+                        <li><span class="highlight">Estatua Iluminada:</span> Frente al luminoso de Schweppes. Un asistente fuera de cámara ilumina sutilmente el rostro del actor con la linterna de un móvil (difuminada) para separarlo del fondo.</li>
+                        <li><span class="highlight">Rack Focus:</span> Perfil del actor. El foco cambia drásticamente de la cara a las luces de la ciudad de fondo.<br>
+                        <img src="assets/shot4_rack_focus_1786125184909.png" alt="Guía Rack Focus" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #334155;"></li>
+                        <li><span class="highlight">Cierre:</span> La mano del actor intenta tapar la lente. Corte a la calle vacía.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- CANCIÓN 2 -->
+        <div class="song-card">
+            <h2>2. Bajo Un Mismo Cielo</h2>
+            <p><strong>Concepto General:</strong> Distancia y conexión. El contraste entre la soledad de la ciudad y la inmensidad del cielo que nos une. Tonos cálidos (Golden Hour) contrastando con la frialdad urbana.</p>
+            <div class="grid-2">
+                <div>
+                    <h3>Lluvia de Ideas: Letra (Concepto)</h3>
+                    <div class="lyrics" style="font-size: 0.95em;">
+                        (Versos temáticos sugeridos / Espacio para la letra oficial)
+                        "La ciudad se apaga, el ruido se va
+                        Miro hacia arriba, buscando la paz
+                        A mil kilómetros, sé que tú estás
+                        Bajo un mismo cielo, en otro lugar...
+                        
+                        Aunque la noche nos quiera esconder
+                        La misma luna nos va a proteger
+                        Bajo un mismo cielo, te vuelvo a ver..."
+                    </div>
+                </div>
+                <div>
+                    <h3>Ideas para Videoclip (Tomas y Dirección)</h3>
+                    <ul>
+                        <li><span class="highlight">La Búsqueda (Cenital):</span> Tomas del actor caminando por calles estrechas de Madrid mirando hacia arriba. Ángulos contrapicados mostrando el cielo entre los edificios.</li>
+                        <li><span class="highlight">El Atardecer (Parque del Oeste):</span> Grabación durante la <em>Golden Hour</em>. Siluetas a contraluz con el cielo anaranjado/rojizo de fondo. Transmite la idea de "el mismo cielo".</li>
+                        <li><span class="highlight">Pantalla Dividida (Efecto en Edición):</span> Mostrar el cielo de día y el cielo de noche al mismo tiempo, o dos paisajes distintos unidos por la línea del horizonte.</li>
+                        <li><span class="highlight">Detalles:</span> Planos muy cercanos de los ojos reflejando la luz del atardecer, o la mano intentando alcanzar las nubes.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- CANCIÓN 3 -->
+        <div class="song-card">
+            <h2>3. En Los Bajos de Argüelles <span style="font-size: 0.6em; color: var(--accent-cyan);">[ELECTRO-FUNK]</span></h2>
+            <p><strong>History (Sinopsis Breve):</strong> Un viaje de redención en la noche madrileña. El protagonista llega a los fríos y oscuros bajos de Argüelles buscando olvidar sus fantasmas en la soledad de una botella. Al cruzar el umbral del bar 'Madrid Madrid', el frío exterior se transforma en una calidez abrumadora. En una barra vacía llena de ecos del pasado, bebe su última copa, se despoja de su antigua sombra y sale a la calle renacido, listo para enfrentar la vida de nuevo.</p>
+            
+            <div style="margin-top: 20px;">
+                <h3>Letra y Minutaje de Rodaje (Shot by Shot)</h3>
+                <div style="background-color: rgba(0,0,0,0.4); padding: 25px; border-radius: 12px; border-left: 4px solid var(--accent-cyan);">
+                    
+                    <h4 style="color: var(--accent-cyan); margin-top: 0;">[00:00 - 00:30] INTRO: La Llegada (El Frío)</h4>
+                    <p><strong>Audio:</strong> Viento, pasos solitarios. Entra bajo funky pesado.<br>
+                    <strong>Visual (Blanco y Negro / Frío):</strong> Tomas de puentes, barandas y pasillos oscuros. El cantante camina con la botella. Luz colonial indirecta.</p>
+
+                    <h4 style="color: var(--accent-cyan);">[00:30 - 00:50] VERSO 1: El Umbral</h4>
+                    <div class="lyrics" style="border-left: 2px solid var(--accent-cyan); background: transparent; padding-left: 15px;">
+                        Llegué a los bajos a perderme en la ciudad<br>
+                        Con una botella y la mente a la mitad<br>
+                        Luces de neón que me esquivan al pasar<br>
+                        Buscando en el fondo a ver si puedo olvidar
+                    </div>
+                    <p><strong>Visual:</strong> Plano de espaldas, luces de coches desenfocadas. Se detiene frente a la puerta del bar.</p>
+
+                    <h4 style="color: var(--accent-cyan);">[00:50 - 01:10] PRE-CORO: La Transición</h4>
+                    <div class="lyrics" style="border-left: 2px solid var(--accent-cyan); background: transparent; padding-left: 15px;">
+                        Y ahí está la puerta... de madera y metal<br>
+                        Donde la mentira siempre suena más real
+                    </div>
+                    <p><strong>Audio:</strong> Punteo de guitarra funky inicial.<br>
+                    <strong>Visual:</strong> La mano toca el picaporte. Abre la puerta. <span class="highlight">GOLPE DE COLOR:</span> Transición drástica a luz Naranja y Dorada intensa.</p>
+
+                    <h4 style="color: var(--accent-cyan);">[01:10 - 01:40] CORO: La Barra (El Refugio)</h4>
+                    <div class="lyrics" style="border-left: 2px solid var(--accent-cyan); background: transparent; padding-left: 15px;">
+                        En los Bajos de Argüelles, me vine a esconder<br>
+                        Un bar lleno de vasos donde nadie me puede ver<br>
+                        El 'Madrid Madrid' me sirve la última vez<br>
+                        Brindando con fantasmas que no me dejan caer
+                    </div>
+                    <p><strong>Visual (Interior Cálido):</strong> El cantante ebrio en la barra. Tomas de cientos de vasos vacíos pero el bar está completamente solo para él.</p>
+
+                    <h4 style="color: var(--accent-cyan);">[01:40 - 02:10] VERSO 2: La Embriaguez</h4>
+                    <div class="lyrics" style="border-left: 2px solid var(--accent-cyan); background: transparent; padding-left: 15px;">
+                        El cristal me mira y me dice quién soy<br>
+                        No sé de dónde vengo, pero sé a dónde voy<br>
+                        Dejo mi sombra clavada en el taburete<br>
+                        Suelto la cuerda para que el viento me suelte
+                    </div>
+                    <p><strong>Visual:</strong> Cámara inestable. Reflejo en la botella. Plano detalle de los pies bajando de la silla. Se pone la chaqueta.</p>
+
+                    <h4 style="color: var(--accent-cyan);">[02:10 - 02:40] PUENTE MUSICAL: El Solo</h4>
+                    <p><strong>Audio:</strong> Solo de guitarra funk frenético.<br>
+                    <strong>Visual:</strong> Tira la botella vacía. Camina decidido hacia la salida. La puerta se abre desde dentro.</p>
+
+                    <h4 style="color: var(--accent-cyan);">[02:40 - 03:20] CORO FINAL: El Renacer</h4>
+                    <div class="lyrics" style="border-left: 2px solid var(--accent-cyan); background: transparent; padding-left: 15px;">
+                        En los Bajos de Argüelles, lo dejé caer<br>
+                        Un bar lleno de vasos, pero yo no voy a volver<br>
+                        El 'Madrid Madrid' se queda con el ayer<br>
+                        Salgo a la calle listo para renacer
+                    </div>
+                    <p><strong>Visual (Exterior Vivo):</strong> El mundo vuelve a tener color brillante. Camina con chulería y seguridad, a ritmo del beat. Mirada segura hacia la cámara.</p>
+
+                    <h4 style="color: var(--accent-cyan);">[03:20 - 03:40] OUTRO: Fade Out</h4>
+                    <p><strong>Visual:</strong> Se aleja de espaldas por la calle Princesa. Fin.</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3>Cronograma Logístico de Grabación (Shooting Schedule)</h3>
+                <div style="background-color: var(--card-bg); padding: 20px; border-radius: 8px; border: 1px solid var(--accent-amber);">
+                    <p style="color: #94a3b8; font-size: 0.9em; margin-bottom: 15px;"><strong>Estrategia:</strong> Grabar por bloques de iluminación y disponibilidad del local, no por orden cronológico de la canción.</p>
+                    
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li style="margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
+                            <span class="date-badge" style="background-color: var(--accent-cyan);">FASE 1: 18:00 - 20:00</span>
+                            <strong>Exteriores Argüelles (Luz Natural / Atardecer)</strong><br>
+                            <span style="color: #cbd5e1; font-size: 0.9em;">Tomas del inicio de la canción (El Frío/Blanco y Negro). Caminar por pasillos, puentes, fachadas coloniales con la botella. Es vital hacerlas antes de perder la luz natural.</span>
+                        </li>
+                        
+                        <li style="margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
+                            <span class="date-badge" style="background-color: var(--accent-amber);">FASE 2: 20:00 - Cierre</span>
+                            <strong>Bar 'Madrid Madrid' (Con Público / Transición)</strong><br>
+                            <span style="color: #cbd5e1; font-size: 0.9em;">Grabar la toma de apertura de puerta (El Umbral). Tomas recurso del bar funcionando con algo de gente (para generar el contraste posterior). Tomas de embriaguez en la barra mientras aún hay ambiente.</span>
+                        </li>
+
+                        <li>
+                            <span class="date-badge" style="background-color: var(--accent-pink);">FASE 3: Cierre del Bar</span>
+                            <strong>El Bar Vacío y El Renacer (Introspección)</strong><br>
+                            <span style="color: #cbd5e1; font-size: 0.9em;">El momento clave: el bar acaba de cerrar. Está lleno de copas sucias pero no hay nadie más. Aquí se graban los planos de máxima soledad cantando a cámara. Finalmente, la toma saliendo del bar ("listo para renacer") hacia la calle oscura.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
